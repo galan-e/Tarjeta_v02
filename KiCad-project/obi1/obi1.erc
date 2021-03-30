@@ -1,0 +1,35 @@
+ERC report (lun 04 nov 2019 14:07:56 CST, Encoding UTF8 )
+
+***** Sheet /
+ErrType(5): Conflict problem between pins. Severity: error
+    @(161.29 mm, 80.01 mm): Pin 2 (Output) of component U2 is connected to 
+    @(161.29 mm, 82.55 mm): pin 4 (Output) of component U2 (net 4).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(161.29 mm, 58.42 mm): Pin 2 (Output) of component U1 is connected to 
+    @(161.29 mm, 60.96 mm): pin 4 (Output) of component U1 (net 5).
+
+***** Sheet /FPGA_PartA/
+
+***** Sheet /FPGA_PartB/
+
+***** Sheet /FPGA_PartC/
+
+***** Sheet /FPGA_PartD/
+
+***** Sheet /RAM_Memory/
+
+***** Sheet /ADC_DAC/
+
+***** Sheet /IMU/
+
+***** Sheet /Inputs_Outputs/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(71.12 mm, 128.27 mm): Pin 1 (Power input) of component #PWR074 is not driven (Net 1).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(96.52 mm, 113.03 mm): Pin 1 (Power input) of component U7 is not driven (Net 6).
+ErrType(7): A pin with a "no connection" flag is connected
+    @(229.87 mm, 81.28 mm): More than 1 pin connected to an UnConnect symbol.
+
+***** Sheet /Flash_Memory/
+
+ ** ERC messages: 5  Errors 2  Warnings 3

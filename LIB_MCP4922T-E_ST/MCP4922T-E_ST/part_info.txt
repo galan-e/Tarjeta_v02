@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=MCP4922T-E/ST
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=14
+Version=2.1
+Released=2019-02-22 05:03:55
+Downloaded=2019-09-10 20:17:25
+3D=Y

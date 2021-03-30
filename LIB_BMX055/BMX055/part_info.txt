@@ -1,0 +1,9 @@
+Manufacturer=Bosch Sensortec
+PartNumber=BMX055
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=20
+Version=1.1
+Released=2015-08-27 19:50:00
+Downloaded=2019-09-10 22:20:12
+3D=N

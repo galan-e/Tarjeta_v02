@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BMX055'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Bosch Sensortec", "BMX055" (!) = "", "LGA_PACKAGE_20_PINS", "Other", "262-BMX055", "https://www.mouser.com/Search/Refine.aspx?Keyword=262-BMX055", "", "", "Small versatile 9-axis sensor module", "http://www.mouser.com/ds/2/621/BST-BMX055-DS000-02-586421.pdf"
+END_PART
+
+END.

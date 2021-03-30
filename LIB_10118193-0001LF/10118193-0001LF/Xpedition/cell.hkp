@@ -1,0 +1,213 @@
+.FILETYPE CELL_LIBRARY
+.VERSION "02.50"
+.DATE "Wednesday, September 25, 2019 12:37 AM"
+
+.UNITS MM
+
+.PACKAGE_CELL "101181930001LF"
+ ..PACKAGE_GROUP CONNECTOR
+ ..MOUNT_TYPE SURFACE
+ ..NUMBER_LAYERS 12
+ ..PIN "1"
+  ...XY (-1.300,2.600)
+  ...PADSTACK "r135_40"
+  ...ROTATION 90.000
+  ...PIN_OPTIONS NONE
+ ..PIN "2"
+  ...XY (-0.650,2.600)
+  ...PADSTACK "r135_40"
+  ...ROTATION 90.000
+  ...PIN_OPTIONS NONE
+ ..PIN "3"
+  ...XY (0.000,2.600)
+  ...PADSTACK "r135_40"
+  ...ROTATION 90.000
+  ...PIN_OPTIONS NONE
+ ..PIN "4"
+  ...XY (0.650,2.600)
+  ...PADSTACK "r135_40"
+  ...ROTATION 90.000
+  ...PIN_OPTIONS NONE
+ ..PIN "5"
+  ...XY (1.300,2.600)
+  ...PADSTACK "r135_40"
+  ...ROTATION 90.000
+  ...PIN_OPTIONS NONE
+ ..PIN "MH1"
+  ...XY (-3.300,-0.075)
+  ...PADSTACK "c195h130"
+  ...ROTATION 0
+  ...PIN_OPTIONS NONE
+ ..PIN "MH2"
+  ...XY (3.300,-0.075)
+  ...PADSTACK "c195h130"
+  ...ROTATION 0
+  ...PIN_OPTIONS NONE
+ ..PIN "MP1"
+  ...XY (-3.200,2.375)
+  ...PADSTACK "r160_140"
+  ...ROTATION 0.000
+  ...PIN_OPTIONS NONE
+ ..PIN "MP2"
+  ...XY (-1.200,-0.075)
+  ...PADSTACK "r190_160"
+  ...ROTATION 0.000
+  ...PIN_OPTIONS NONE
+ ..PIN "MP3"
+  ...XY (1.200,-0.075)
+  ...PADSTACK "r190_160"
+  ...ROTATION 0.000
+  ...PIN_OPTIONS NONE
+ ..PIN "MP4"
+  ...XY (3.200,2.375)
+  ...PADSTACK "r160_140"
+  ...ROTATION 0.000
+  ...PIN_OPTIONS NONE
+ ..TEXT "Ref Des"
+  ...TEXT_TYPE REF_DES
+  ...DISPLAY_ATTR
+   ....XY (0.000,0.963)
+   ....TEXT_LYR SILKSCREEN_MNT_LYR
+   ....DISPLAY_CONDITION ANY_MOUNT
+   ....HORZ_JUST LEFT
+   ....VERT_JUST BOTTOM
+   ....HEIGHT 1.27
+   ....WIDTH 0.127
+   ....STROKE_WIDTH 0.127
+   ....ROTATION 0
+   ....FONT "VeriBest Gerber 0"
+   ....TEXT_OPTIONS NONE
+ ..TEXT "Part No"
+  ...TEXT_TYPE PARTNO
+  ...DISPLAY_ATTR
+   ....XY (0.000,0.963)
+   ....TEXT_LYR ASSEMBLY_MNT_LYR
+   ....DISPLAY_CONDITION ANY_MOUNT
+   ....HORZ_JUST LEFT
+   ....VERT_JUST TOP
+   ....HEIGHT 1.27
+   ....WIDTH 0.127
+   ....STROKE_WIDTH 0.127
+   ....ROTATION 0
+   ....FONT "VeriBest Gerber 0"
+   ....TEXT_OPTIONS NONE
+ ..ASSEMBLY_OUTLINE
+  ...DISPLAY_WIDTH 0.2
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...POLYLINE_PATH
+   ....WIDTH 0.2
+   ....XY (-3.930, -2.825)
+          (3.930, -2.825)
+          (3.930, 2.825)
+          (-3.930, 2.825)
+          (-3.930, -2.825)
+ ..SILKSCREEN_OUTLINE
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...POLYLINE_PATH
+   ....WIDTH 0.1
+   ....XY (-3.930, -2.000)
+          (-3.930, -2.000)
+          (-3.930, -2.825)
+          (-3.930, -2.825)
+          (-3.930, -2.000)
+ ..SILKSCREEN_OUTLINE
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...POLYLINE_PATH
+   ....WIDTH 0.1
+   ....XY (-3.930, -2.825)
+          (3.930, -2.825)
+          (3.930, -2.825)
+          (-3.930, -2.825)
+          (-3.930, -2.825)
+ ..SILKSCREEN_OUTLINE
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...POLYLINE_PATH
+   ....WIDTH 0.1
+   ....XY (3.930, -2.825)
+          (3.930, -2.825)
+          (3.930, -2.000)
+          (3.930, -2.000)
+          (3.930, -2.825)
+ ..PLACEMENT_OUTLINE
+  ...HEIGHT 3.1
+  ...UNDERSIDE_SPACE 0
+  ...DISPLAY_WIDTH 0
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...POLYLINE_PATH
+   ....WIDTH 0.1
+   ....XY (-5.275, 5.750)
+          (5.275, 5.750)
+          (5.275, -3.825)
+          (-5.275, -3.825)
+          (-5.275, 5.750)
+ ..SILKSCREEN_OUTLINE
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...POLYLINE_PATH
+   ....WIDTH 0.2
+   ....XY (-1.400, 4.700)
+          (-1.400, 4.700)
+ ..SILKSCREEN_OUTLINE
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...POLYARC_PATH
+   ....WIDTH 0.2
+   ....XYR (-1.400, 4.700, 0)
+           (-1.35, 4.7, -0.05)
+           (-1.300, 4.700, 0)
+ ..SILKSCREEN_OUTLINE
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...POLYLINE_PATH
+   ....WIDTH 0.2
+   ....XY (-1.300, 4.700)
+          (-1.300, 4.700)
+          (-1.300, 4.700)
+ ..SILKSCREEN_OUTLINE
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...POLYARC_PATH
+   ....WIDTH 0.2
+   ....XYR (-1.300, 4.700, 0)
+           (-1.35, 4.7, -0.05)
+           (-1.400, 4.700, 0)
+ ..SILKSCREEN_OUTLINE
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...POLYLINE_PATH
+   ....WIDTH 0.2
+   ....XY (-1.400, 4.700)
+          (-1.400, 4.700)
+          (-1.400, 4.700)
+ ..SILKSCREEN_OUTLINE
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...POLYARC_PATH
+   ....WIDTH 0.2
+   ....XYR (-1.400, 4.700, 0)
+           (-1.35, 4.7, -0.05)
+           (-1.300, 4.700, 0)
+ ..SILKSCREEN_OUTLINE
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...POLYLINE_PATH
+   ....WIDTH 0.2
+   ....XY (-1.300, 4.700)
+          (-1.300, 4.700)

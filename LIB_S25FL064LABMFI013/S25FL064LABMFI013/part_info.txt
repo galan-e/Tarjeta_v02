@@ -1,0 +1,9 @@
+Manufacturer=Cypress Semiconductor
+PartNumber=S25FL064LABMFI013
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=2.1
+Released=2017-08-31 09:54:06
+Downloaded=2019-09-10 20:15:13
+3D=Y

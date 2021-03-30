@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '206_8'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "CTS", "206-8" (!) = "", "2068", "Other", "774-2068", "https://www.mouser.com/Search/Refine.aspx?Keyword=774-2068", "1774271", "https://uk.rs-online.com/web/p/products/1774271", "DIP Switches / SIP Switches SPST 8 switch sections", "https://www.ctscorp.com/wp-content/uploads/206-208.pdf", "8 mm"
+END_PART
+
+END.

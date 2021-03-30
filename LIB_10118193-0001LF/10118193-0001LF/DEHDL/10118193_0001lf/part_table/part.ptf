@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '10118193_0001LF'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "ALLIED_NUMBER", "ALLIED_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Amphenol", "10118193-0001LF" (!) = "", "101181930001LF", "Other", "649-10118193-0001LF", "https://www.mouser.com/Search/Refine.aspx?Keyword=649-10118193-0001LF", "8632989", "http://uk.rs-online.com/web/p/products/8632989", "70236827", "https://www.alliedelec.com/amphenolicc-10118193-0001lf/70236827/", "USB Connectors 5P MICRO USB TYPE B RECEPTACLE W/ PEGS", "https://componentsearchengine.com/Datasheets/1/10118193-0001LF.pdf", "3.1 mm"
+END_PART
+
+END.

@@ -1,0 +1,18 @@
+.S25FL064LABMFI013 :1 ;FLASH - NOR Memory IC 64Mb (8M x 8) SPI - Quad I/O, QPI 8-SOIC
+SOIC127P800X216-8N
+*STM IC
+*NGS
+*PLB 1="CS#" 2="SO/IO1" 3="WP#/IO2" 4="VSS" 5="SI/IO0" 6="SCK" 7="IO3/RESET#" 8="VCC"
+*MXP 8
+*DFN S25FL064LABMFI013
+~!Manufacturer_Name (Cypress Semiconductor)
+~!Manufacturer_Part_Number (S25FL064LABMFI013)
+~!Mouser Part Number (727-S25FL064LAMFI013)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=727-S25FL064LAMFI013)
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Link Datasheet (http://www.cypress.com/file/316661/download)
+~!Height (2.16mm)
+~!3D_Model (S25FL064LABMFI013)
+S25FL064LABMFI013
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

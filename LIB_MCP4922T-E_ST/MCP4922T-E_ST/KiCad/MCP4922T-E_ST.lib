@@ -1,0 +1,39 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MCP4922T-E_ST
+#/674770/174461/2.43/14/3/Integrated Circuit
+DEF MCP4922T-E_ST IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "MCP4922T-E_ST" 1050 200 50 H V L CNN
+F2 "SOP65P640X120-14N" 1050 100 50 H I L CNN
+F3 "http://ww1.microchip.com/downloads/en/devicedoc/22250a.pdf" 1050 0 50 H I L CNN
+F4 "MICROCHIP - MCP4922T-E/ST - DAC, 12BIT, -40 TO 125DEG C, TSSOP" 1050 -100 50 H I L CNN "Description"
+F5 "1.2" 1050 -200 50 H I L CNN "Height"
+F6 "Microchip" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MCP4922T-E/ST" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "579-MCP4922T-E/ST" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=579-MCP4922T-E%2FST" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "1773123" 1050 -700 50 H I L CNN "RS Part Number"
+F11 "https://uk.rs-online.com/web/p/products/1773123" 1050 -800 50 H I L CNN "RS Price/Stock"
+F12 "70451631" 1050 -900 50 H I L CNN "Allied_Number"
+F13 "https://www.alliedelec.com/microchiptechnologyinc-mcp4922t-e-st/70451631/" 1050 -1000 50 H I L CNN "Allied Price/Stock"
+DRAW
+X VDD 1 0 0 200 R 50 50 0 0 B
+X NC_1 2 0 -100 200 R 50 50 0 0 B
+X ~CS 3 0 -200 200 R 50 50 0 0 B
+X SCK 4 0 -300 200 R 50 50 0 0 B
+X SDI 5 0 -400 200 R 50 50 0 0 B
+X NC_2 6 0 -500 200 R 50 50 0 0 B
+X NC_3 7 0 -600 200 R 50 50 0 0 B
+X VOUTA 14 1200 0 200 L 50 50 0 0 B
+X VREFA 13 1200 -100 200 L 50 50 0 0 B
+X VSS 12 1200 -200 200 L 50 50 0 0 B
+X VREFB 11 1200 -300 200 L 50 50 0 0 B
+X VOUTB 10 1200 -400 200 L 50 50 0 0 B
+X ~SHDN 9 1200 -500 200 L 50 50 0 0 B
+X ~LDAC 8 1200 -600 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 1000 100 1000 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

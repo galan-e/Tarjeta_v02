@@ -1,0 +1,158 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ADC122S625CIMM_NOPB"
+   (description "Dual 12-Bit, 50 kSPS to 200 kSPS, Simultaneous Sampling A/D Converter")
+   (family "ANA")
+   (package "SOP50P490X110-10N")
+   (attribute "Datasheet Link" "http://www.ti.com/lit/ds/symlink/adc122s625.pdf")
+   (attribute "Geometry.Height" "1.1mm")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "ADC122S625CIMM/NOPB")
+   (attribute "Mouser Part Number" "926-AD122S625CIMMNPB")
+   (attribute "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=926-AD122S625CIMMNPB")
+   (attribute "RS Part Number" "1624126")
+   (attribute "RS Price/Stock" "https://uk.rs-online.com/web/p/products/1624126")
+   (gate
+    (symbol "ADC122S625CIMM_NOPB")
+    (pin "VREF" 1 IP)
+    (pin "CHA+" 2 PS)
+    (pin "CHA-" 3 PS)
+    (pin "CHB-" 4 PS)
+    (pin "CHB+" 5 PS)
+    (pin "$CS$" 10 IP)
+    (pin "SCLK" 9 IP)
+    (pin "DOUT" 8 OP)
+    (pin "VA" 7 PS)
+    (pin "GND" 6 PP)
+   )
+  )
+  (symbol "ADC122S625CIMM_NOPB"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 900 100) (pt 900 -500) (pt 200 -500) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOP50P490X110-10N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -3.15 1.8)
+      (pt 3.15 1.8)
+      (pt 3.15 -1.8)
+      (pt -3.15 -1.8)
+      (pt -3.15 1.8))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.5 1.5)
+      (pt 1.5 1.5)
+      (pt 1.5 -1.5)
+      (pt -1.5 -1.5)
+      (pt -1.5 1.5))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.5 1)
+      (pt -1 1.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.15 1.5)
+      (pt 1.15 1.5)
+      (pt 1.15 -1.5)
+      (pt -1.15 -1.5)
+      (pt -1.15 1.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.9 1.5)
+      (pt -1.5 1.5))))
+   (leg 1 (pt -2.2 1) (padstack 0))
+   (leg 2 (pt -2.2 0.5) (padstack 0))
+   (leg 3 (pt -2.2 0) (padstack 0))
+   (leg 4 (pt -2.2 -0.5) (padstack 0))
+   (leg 5 (pt -2.2 -1) (padstack 0))
+   (leg 6 (pt 2.2 -1) (padstack 0))
+   (leg 7 (pt 2.2 -0.5) (padstack 0))
+   (leg 8 (pt 2.2 0) (padstack 0))
+   (leg 9 (pt 2.2 0.5) (padstack 0))
+   (leg 10 (pt 2.2 1) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.3 1.4 0 0 0))
+   )
+   (model "ADC122S625CIMM_NOPB.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

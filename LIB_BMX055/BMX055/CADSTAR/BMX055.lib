@@ -1,0 +1,17 @@
+.BMX055 :1 ;Small versatile 9-axis sensor module
+LGA_PACKAGE_20_PINS
+*STM IC
+*NGS
+*PLB 1="INT2" 2="DRDYM" 3="VDD" 4="GNDA" 5="CSB2" 6="GNDIO" 7="PS" 8="NC_1" 9="SCX" 10="INT5" 11="SDX" 12="SDO2" 13="VDDIO" 14="INT3" 15="INT4" 16="CSB1" 17="SDO1" 18="NC_2" 19="INT1" 20="CSB3"
+*MXP 20
+*DFN BMX055
+~!Manufacturer_Name (Bosch Sensortec)
+~!Manufacturer_Part_Number (BMX055)
+~!Mouser Part Number (262-BMX055)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=262-BMX055)
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Link Datasheet (http://www.mouser.com/ds/2/621/BST-BMX055-DS000-02-586421.pdf)
+~!Height (-)
+BMX055
+1.1!I 2.1!U 3.1!P 4.1!G 5.1!I 6.1!G 7.1!U 8.1!U 9.1!U 10.1!I 11.1!U 12.1!U 13.1!P 14.1!I 15.1!I 16.1!I 17.1!U 18.1!U 19.1!I 20.1!I 

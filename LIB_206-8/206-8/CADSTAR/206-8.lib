@@ -1,0 +1,18 @@
+.206-8 :1 ;DIP Switches / SIP Switches SPST 8 switch sections
+"2068"
+*STM S
+*NGS
+*PLB 1="1_1" 2="1_2" 3="2_1" 4="2_2" 5="3_1" 6="3_2" 7="4_1" 8="4_2" 9="5_1" 10="5_2" 11="6_1" 12="6_2" 13="7_1" 14="7_2" 15="8_1" 16="8_2"
+*MXP 16
+*DFN 206-8
+~!Manufacturer_Name (CTS)
+~!Manufacturer_Part_Number (206-8)
+~!Mouser Part Number (774-2068)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=774-2068)
+~!RS Part Number (1774271)
+~!Link RS Price/Stock (https://uk.rs-online.com/web/p/products/1774271)
+~!Link Datasheet (https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
+~!Height (8mm)
+~!3D_Model (206-8)
+"206-8"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 

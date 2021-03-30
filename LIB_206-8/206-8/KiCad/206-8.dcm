@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 206-8
+D DIP Switches / SIP Switches SPST 8 switch sections
+K
+F https://www.ctscorp.com/wp-content/uploads/206-208.pdf
+$ENDCMP
+#
+#End Doc Library

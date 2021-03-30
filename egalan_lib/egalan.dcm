@@ -1,0 +1,41 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 10118193-0001LF
+D USB Connectors 5P MICRO USB TYPE B RECEPTACLE W/ PEGS
+$ENDCMP
+#
+$CMP 206-8
+D DIP Switches / SIP Switches SPST 8 switch sections
+F https://www.ctscorp.com/wp-content/uploads/206-208.pdf
+$ENDCMP
+#
+$CMP ADC122S625CIMM_NOPB
+D Dual 12-Bit, 50 kSPS to 200 kSPS, Simultaneous Sampling A/D Converter
+F http://www.ti.com/lit/ds/symlink/adc122s625.pdf
+$ENDCMP
+#
+$CMP BMX055
+D Small versatile 9-axis sensor module
+F http://www.mouser.com/ds/2/621/BST-BMX055-DS000-02-586421.pdf
+$ENDCMP
+#
+$CMP IS61WV25616EDBLL-10TLI
+D ISSI,IS61WV25616EDBLL-10TLI SRAM 4Mb 3V ISSI IS61WV25616EDBLL-10TLI SRAM Memory, 4Mbit, 2.4  3.6 V, 10ns 44-Pin TSOP
+$ENDCMP
+#
+$CMP MCP4922T-E_ST
+D MICROCHIP - MCP4922T-E/ST - DAC, 12BIT, -40 TO 125DEG C, TSSOP
+F http://ww1.microchip.com/downloads/en/devicedoc/22250a.pdf
+$ENDCMP
+#
+$CMP S25FL064LABMFI013
+D FLASH - NOR Memory IC 64Mb (8M x 8) SPI - Quad I/O, QPI 8-SOIC
+F http://www.cypress.com/file/316661/download
+$ENDCMP
+#
+$CMP XC6SLX16-2FTG256C
+D XILINX - XC6SLX16-2FTG256C. - FPGA, SPARTAN-6 LX, 14K, 256FTGBGA
+F https://componentsearchengine.com/Datasheets/2/XC6SLX16-2FTG256C.pdf
+$ENDCMP
+#
+#End Doc Library

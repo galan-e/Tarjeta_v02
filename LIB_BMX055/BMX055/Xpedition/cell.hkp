@@ -1,0 +1,259 @@
+.FILETYPE CELL_LIBRARY
+.VERSION "02.50"
+.DATE "Tuesday, September 10, 2019 10:20 PM"
+
+.UNITS MM
+
+.PACKAGE_CELL "LGA_PACKAGE_20_PINS"
+ ..PACKAGE_GROUP DISCRETE_OTHER
+ ..MOUNT_TYPE SURFACE
+ ..NUMBER_LAYERS 12
+ ..PIN "1"
+  ...XY (1.15,1.5)
+  ...PADSTACK "r60_30"
+  ...ROTATION 0
+  ...PIN_OPTIONS NONE
+ ..PIN "2"
+  ...XY (1.15,1)
+  ...PADSTACK "r60_30"
+  ...ROTATION 0
+  ...PIN_OPTIONS NONE
+ ..PIN "3"
+  ...XY (1.15,0.5)
+  ...PADSTACK "r60_30"
+  ...ROTATION 0
+  ...PIN_OPTIONS NONE
+ ..PIN "4"
+  ...XY (1.15,0)
+  ...PADSTACK "r60_30"
+  ...ROTATION 0
+  ...PIN_OPTIONS NONE
+ ..PIN "5"
+  ...XY (1.15,-0.5)
+  ...PADSTACK "r60_30"
+  ...ROTATION 0
+  ...PIN_OPTIONS NONE
+ ..PIN "6"
+  ...XY (1.15,-1)
+  ...PADSTACK "r60_30"
+  ...ROTATION 0
+  ...PIN_OPTIONS NONE
+ ..PIN "7"
+  ...XY (1.15,-1.5)
+  ...PADSTACK "r60_30"
+  ...ROTATION 0
+  ...PIN_OPTIONS NONE
+ ..PIN "8"
+  ...XY (0.5,-1.9)
+  ...PADSTACK "r60_30"
+  ...ROTATION 90
+  ...PIN_OPTIONS NONE
+ ..PIN "9"
+  ...XY (0,-1.9)
+  ...PADSTACK "r60_30"
+  ...ROTATION 90
+  ...PIN_OPTIONS NONE
+ ..PIN "10"
+  ...XY (-0.5,-1.9)
+  ...PADSTACK "r60_30"
+  ...ROTATION 90
+  ...PIN_OPTIONS NONE
+ ..PIN "11"
+  ...XY (-1.15,-1.5)
+  ...PADSTACK "r60_30"
+  ...ROTATION 0
+  ...PIN_OPTIONS NONE
+ ..PIN "12"
+  ...XY (-1.15,-1)
+  ...PADSTACK "r60_30"
+  ...ROTATION 0
+  ...PIN_OPTIONS NONE
+ ..PIN "13"
+  ...XY (-1.15,-0.5)
+  ...PADSTACK "r60_30"
+  ...ROTATION 0
+  ...PIN_OPTIONS NONE
+ ..PIN "14"
+  ...XY (-1.15,0)
+  ...PADSTACK "r60_30"
+  ...ROTATION 0
+  ...PIN_OPTIONS NONE
+ ..PIN "15"
+  ...XY (-1.15,0.5)
+  ...PADSTACK "r60_30"
+  ...ROTATION 0
+  ...PIN_OPTIONS NONE
+ ..PIN "16"
+  ...XY (-1.15,1)
+  ...PADSTACK "r60_30"
+  ...ROTATION 0
+  ...PIN_OPTIONS NONE
+ ..PIN "17"
+  ...XY (-1.15,1.5)
+  ...PADSTACK "r60_30"
+  ...ROTATION 0
+  ...PIN_OPTIONS NONE
+ ..PIN "18"
+  ...XY (-0.5,1.9)
+  ...PADSTACK "r60_30"
+  ...ROTATION 90
+  ...PIN_OPTIONS NONE
+ ..PIN "19"
+  ...XY (0,1.9)
+  ...PADSTACK "r60_30"
+  ...ROTATION 90
+  ...PIN_OPTIONS NONE
+ ..PIN "20"
+  ...XY (0.5,1.9)
+  ...PADSTACK "r60_30"
+  ...ROTATION 90
+  ...PIN_OPTIONS NONE
+ ..TEXT "Part No"
+  ...TEXT_TYPE PARTNO
+  ...DISPLAY_ATTR
+   ....XY (0,0)
+   ....TEXT_LYR ASSEMBLY_MNT_LYR
+   ....DISPLAY_CONDITION ANY_MOUNT
+   ....HORZ_JUST CENTER
+   ....VERT_JUST CENTER
+   ....HEIGHT 1.5
+   ....WIDTH 0.15
+   ....STROKE_WIDTH 0.15
+   ....ROTATION 90
+   ....FONT "VeriBest Gerber 0"
+   ....TEXT_OPTIONS NONE
+ ..TEXT "Ref Des"
+  ...TEXT_TYPE REF_DES
+  ...DISPLAY_ATTR
+   ....XY (0,0)
+   ....TEXT_LYR SILKSCREEN_MNT_LYR
+   ....DISPLAY_CONDITION ANY_MOUNT
+   ....HORZ_JUST CENTER
+   ....VERT_JUST CENTER
+   ....HEIGHT 1.5
+   ....WIDTH 0.15
+   ....STROKE_WIDTH 0.15
+   ....ROTATION 90
+   ....FONT "VeriBest Gerber 0"
+   ....TEXT_OPTIONS NONE
+ ..PLACEMENT_OUTLINE
+  ...HEIGHT 0
+  ...UNDERSIDE_SPACE 0
+  ...DISPLAY_WIDTH 0
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...POLYLINE_PATH
+   ....WIDTH 0.05
+   ....XY (-1.75, -2.5)
+          (1.75, -2.5)
+          (1.75, 2.5)
+          (-1.75, 2.5)
+          (-1.75, -2.5)
+ ..PLACEMENT_OUTLINE
+  ...HEIGHT 0
+  ...UNDERSIDE_SPACE 0
+  ...DISPLAY_WIDTH 0
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...POLYLINE_PATH
+   ....WIDTH 0.05
+   ....XY (0, -0.5)
+          (0, 0.5)
+ ..PLACEMENT_OUTLINE
+  ...HEIGHT 0
+  ...UNDERSIDE_SPACE 0
+  ...DISPLAY_WIDTH 0
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...POLYLINE_PATH
+   ....WIDTH 0.05
+   ....XY (-0.5, 0)
+          (0.5, 0)
+ ..ASSEMBLY_OUTLINE
+  ...DISPLAY_WIDTH 0.1
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...POLYLINE_PATH
+   ....WIDTH 0.1
+   ....XY (-1.5, -2.25)
+          (1.5, -2.25)
+          (1.5, 2.25)
+          (-1.5, 2.25)
+          (-1.5, -2.25)
+ ..ASSEMBLY_OUTLINE
+  ...DISPLAY_WIDTH 0.1
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...POLYLINE_PATH
+   ....WIDTH 0.1
+   ....XY (-1.4, 2.25)
+          (-1.5, 2.15)
+ ..ASSEMBLY_OUTLINE
+  ...DISPLAY_WIDTH 0.1
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...POLYLINE_PATH
+   ....WIDTH 0.1
+   ....XY (-1.2, 2.25)
+          (-1.5, 1.95)
+ ..SILKSCREEN_OUTLINE
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...POLYLINE_PATH
+   ....WIDTH 0.2
+   ....XY (-1.5, 2)
+          (-1.5, 2.05)
+          (-1.3, 2.25)
+          (-1, 2.25)
+ ..SILKSCREEN_OUTLINE
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...POLYLINE_PATH
+   ....WIDTH 0.2
+   ....XY (1.5, 2)
+          (1.5, 2.25)
+          (1, 2.25)
+ ..SILKSCREEN_OUTLINE
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...POLYLINE_PATH
+   ....WIDTH 0.2
+   ....XY (-1.5, -2)
+          (-1.5, -2.25)
+          (-1, -2.25)
+ ..SILKSCREEN_OUTLINE
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...POLYLINE_PATH
+   ....WIDTH 0.2
+   ....XY (1.5, -2)
+          (1.5, -2.25)
+          (1, -2.25)
+ ..SILKSCREEN_OUTLINE
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...CIRCLE_PATH
+   ....WIDTH 0.25
+   ....XY (2.26, 1.529)
+   ....RADIUS 0.125
+   ....STYLE SOLIDLINE
+ ..ASSEMBLY_OUTLINE
+  ...DISPLAY_WIDTH 0.1
+  ...OPTIONS NONE
+  ...SIDE MNT_SIDE
+  ...DISPLAY_CONDITION ANY_MOUNT
+  ...POLYLINE_PATH
+   ....WIDTH 0.1
+   ....XY (1.1795, 2.2245)
+          (1.4795, 1.9245)

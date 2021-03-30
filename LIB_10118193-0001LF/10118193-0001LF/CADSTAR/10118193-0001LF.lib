@@ -1,0 +1,21 @@
+.10118193-0001LF :1 ;USB Connectors 5P MICRO USB TYPE B RECEPTACLE W/ PEGS
+"101181930001LF"
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=5 6=MH1 7=MH2 8=MP1 9=MP2 10=MP3 11=MP4
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="MH1" 7="MH2" 8="MP1" 9="MP2" 10="MP3" 11="MP4"
+*MXP 11
+*DFN 10118193-0001LF
+~!Manufacturer_Name (Amphenol)
+~!Manufacturer_Part_Number (10118193-0001LF)
+~!Mouser Part Number (649-10118193-0001LF)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=649-10118193-0001LF)
+~!RS Part Number (8632989)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/8632989)
+~!Allied_Number (70236827)
+~!Link Allied Price/Stock (https://www.alliedelec.com/amphenolicc-10118193-0001lf/70236827/)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/10118193-0001LF.pdf)
+~!Height (3.1mm)
+~!3D_Model (10118193-0001LF)
+"10118193-0001LF"
+1.1!U 3.1!U 5.1!U 7.1!U 9.1!U 11.1!U 2.1!U 4.1!U 6.1!U 8.1!U 10.1!U 

@@ -1,0 +1,18 @@
+.ADC122S625CIMM_NOPB :1 ;Dual 12-Bit, 50 kSPS to 200 kSPS, Simultaneous Sampling A/D Converter
+SOP50P490X110-10N
+*STM IC
+*NGS
+*PLB 1="VREF" 2="CHA+" 3="CHA-" 4="CHB-" 5="CHB+" 6="GND" 7="VA" 8="DOUT" 9="SCLK" 10="'CS'"
+*MXP 10
+*DFN ADC122S625CIMM_NOPB
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (ADC122S625CIMM/NOPB)
+~!Mouser Part Number (926-AD122S625CIMMNPB)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=926-AD122S625CIMMNPB)
+~!RS Part Number (1624126)
+~!Link RS Price/Stock (https://uk.rs-online.com/web/p/products/1624126)
+~!Link Datasheet (http://www.ti.com/lit/ds/symlink/adc122s625.pdf)
+~!Height (1.1mm)
+~!3D_Model (ADC122S625CIMM_NOPB)
+ADC122S625CIMM_NOPB
+1.1!I 2.1!U 3.1!U 4.1!U 5.1!U 10.1!I 9.1!I 8.1!Y 7.1!U 6.1!G 

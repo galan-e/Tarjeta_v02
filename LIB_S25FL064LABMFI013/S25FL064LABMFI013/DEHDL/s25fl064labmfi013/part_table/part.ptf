@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'S25FL064LABMFI013'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Cypress Semiconductor", "S25FL064LABMFI013" (!) = "", "SOIC127P800X216-8N", "Small Outline Packages", "727-S25FL064LAMFI013", "https://www.mouser.com/Search/Refine.aspx?Keyword=727-S25FL064LAMFI013", "", "", "FLASH - NOR Memory IC 64Mb (8M x 8) SPI - Quad I/O, QPI 8-SOIC", "http://www.cypress.com/file/316661/download", "2.16 mm"
+END_PART
+
+END.

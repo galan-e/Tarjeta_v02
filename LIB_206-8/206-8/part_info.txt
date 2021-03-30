@@ -1,0 +1,9 @@
+Manufacturer=CTS
+PartNumber=206-8
+PartCategory=Switch
+PackageCategory=Other
+PinCount=16
+Version=1.2
+Released=2018-06-15 15:31:23
+Downloaded=2019-09-17 18:32:57
+3D=Y

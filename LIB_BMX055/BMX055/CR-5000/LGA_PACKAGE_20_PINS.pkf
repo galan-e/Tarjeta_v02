@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "LGA_PACKAGE_20_PINS"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "LGA_PACKAGE_20_PINS")
+        (spec "default")
+    )
+)

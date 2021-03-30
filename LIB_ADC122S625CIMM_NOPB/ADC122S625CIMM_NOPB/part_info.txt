@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=ADC122S625CIMM/NOPB
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=10
+Version=2.2
+Released=2015-04-16 09:48:08
+Downloaded=2019-09-10 20:18:10
+3D=Y

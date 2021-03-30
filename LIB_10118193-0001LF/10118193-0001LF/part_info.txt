@@ -1,0 +1,9 @@
+Manufacturer=Amphenol
+PartNumber=10118193-0001LF
+PartCategory=Connector
+PackageCategory=Other
+PinCount=11
+Version=1.2
+Released=2019-08-30 17:21:30
+Downloaded=2019-09-25 00:37:57
+3D=Y
