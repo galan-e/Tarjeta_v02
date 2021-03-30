@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Sensor_Motion:BMF055 U8
+L Sensor_Motion:BMF055 U6
 U 1 1 605E7DBB
 P 4350 5400
-F 0 "U8" H 4350 6481 50  0000 C CNN
+F 0 "U6" H 4350 6481 50  0000 C CNN
 F 1 "BMF055" H 4350 6390 50  0000 C CNN
 F 2 "Package_LGA:LGA-28_5.2x3.8mm_P0.5mm" H 4500 4550 50  0001 L CNN
 F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMF055-DS000.pdf" H 4350 5600 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMF055-D
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0102
+L power:+3V3 #PWR059
 U 1 1 605EB8B3
 P 4050 4100
-F 0 "#PWR0102" H 4050 3950 50  0001 C CNN
+F 0 "#PWR059" H 4050 3950 50  0001 C CNN
 F 1 "+3V3" H 4100 4300 50  0000 C CNN
 F 2 "" H 4050 4100 50  0001 C CNN
 F 3 "" H 4050 4100 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "" H 4050 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0103
+L power:+3V3 #PWR060
 U 1 1 605EE3F5
 P 4450 4100
-F 0 "#PWR0103" H 4450 3950 50  0001 C CNN
+F 0 "#PWR060" H 4450 3950 50  0001 C CNN
 F 1 "+3V3" H 4500 4300 50  0000 C CNN
 F 2 "" H 4450 4100 50  0001 C CNN
 F 3 "" H 4450 4100 50  0001 C CNN
@@ -75,11 +75,11 @@ Wire Wire Line
 Wire Wire Line
 	4450 6300 4450 6550
 Wire Wire Line
-	2100 6550 3950 6550
+	2100 6550 2500 6550
 Connection ~ 4250 6550
 Wire Wire Line
 	4250 6550 4350 6550
-Text GLabel 2950 4700 0    50   Input ~ 0
+Text GLabel 2400 4600 0    50   Input ~ 0
 nReset
 $Comp
 L Device:C C42
@@ -93,8 +93,6 @@ F 3 "~" H 3050 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3550 4800 3050 4800
-Wire Wire Line
 	3050 4800 3050 4850
 Wire Wire Line
 	3050 5150 3050 6350
@@ -106,10 +104,10 @@ Connection ~ 4350 6550
 Wire Wire Line
 	4350 6550 4450 6550
 $Comp
-L Device:R R48
+L Device:R R19
 U 1 1 605FCDD0
 P 3200 4700
-F 0 "R48" V 2993 4700 50  0000 C CNN
+F 0 "R19" V 2993 4700 50  0000 C CNN
 F 1 "@10K;1/4W;0805;1%" V 3100 4700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3130 4700 50  0001 C CNN
 F 3 "~" H 3200 4700 50  0001 C CNN
@@ -117,17 +115,13 @@ F 3 "~" H 3200 4700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3350 4700 3550 4700
-Wire Wire Line
 	3050 4700 3000 4700
 Connection ~ 3000 4700
-Wire Wire Line
-	3000 4700 2950 4700
 $Comp
-L Device:C C54
+L Device:C C44
 U 1 1 605FF628
 P 5650 4400
-F 0 "C54" H 5765 4446 50  0000 L CNN
+F 0 "C44" H 5765 4446 50  0000 L CNN
 F 1 "@6800pF;10V;X7R;0603;10%" H 5765 4355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5688 4250 50  0001 C CNN
 F 3 "~" H 5650 4400 50  0001 C CNN
@@ -138,10 +132,10 @@ Wire Wire Line
 	4450 6550 5650 6550
 Connection ~ 4450 6550
 $Comp
-L Device:C C53
+L Device:C C43
 U 1 1 606014E1
 P 5200 4400
-F 0 "C53" H 5315 4446 50  0000 L CNN
+F 0 "C43" H 5315 4446 50  0000 L CNN
 F 1 "@0.12uF;10V;X7R;0603;10%" H 4750 4500 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5238 4250 50  0001 C CNN
 F 3 "~" H 5200 4400 50  0001 C CNN
@@ -223,10 +217,10 @@ Connection ~ 5200 4250
 Text GLabel 5150 6000 2    50   Input ~ 0
 IMU_SCX
 $Comp
-L power:GND #PWR0104
+L power:GND #PWR058
 U 1 1 606D26E7
 P 3950 6750
-F 0 "#PWR0104" H 3950 6500 50  0001 C CNN
+F 0 "#PWR058" H 3950 6500 50  0001 C CNN
 F 1 "GND" H 3955 6577 50  0000 C CNN
 F 2 "" H 3950 6750 50  0001 C CNN
 F 3 "" H 3950 6750 50  0001 C CNN
@@ -238,6 +232,48 @@ Wire Wire Line
 Wire Wire Line
 	3950 6550 3950 6750
 Connection ~ 3950 6550
+$Comp
+L Device:C C?
+U 1 1 60648C09
+P 2350 5500
+F 0 "C?" H 2465 5546 50  0000 L CNN
+F 1 "@1uF;6.3V;X5R;0805;10%" H 1850 5400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2388 5350 50  0001 C CNN
+F 3 "~" H 2350 5500 50  0001 C CNN
+	1    2350 5500
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	3950 6550 4250 6550
+	2500 6550 2500 5650
+Wire Wire Line
+	2500 5650 2350 5650
+Connection ~ 2500 6550
+Wire Wire Line
+	2500 6550 3950 6550
+Wire Wire Line
+	3550 4800 3050 4800
+Wire Wire Line
+	3350 4700 3550 4700
+$Comp
+L Device:R R?
+U 1 1 60650B61
+P 2600 4600
+F 0 "R?" V 2393 4600 50  0000 C CNN
+F 1 "@20;1/4W;0805;1%" V 2500 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2530 4600 50  0001 C CNN
+F 3 "~" H 2600 4600 50  0001 C CNN
+	1    2600 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2450 4600 2400 4600
+Wire Wire Line
+	2750 4600 2750 4700
+Wire Wire Line
+	2750 5350 2350 5350
+Wire Wire Line
+	2750 4700 3000 4700
+Connection ~ 2750 4700
+Wire Wire Line
+	2750 4700 2750 5350
 $EndSCHEMATC
