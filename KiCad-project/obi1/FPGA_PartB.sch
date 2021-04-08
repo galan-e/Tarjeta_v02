@@ -3,13 +3,13 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 10
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Sheet 3 11
+Title "Spartan6 FTG256 Part B"
+Date "2021-04-08"
+Rev "0.2 "
+Comp "QRoboticsLab"
+Comment1 "by EGU"
+Comment2 "by JKGR"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -256,8 +256,6 @@ Text GLabel 5450 6250 2    50   Input ~ 0
 RAM_A11
 Text GLabel 5450 6350 2    50   Input ~ 0
 RAM_A10
-Text GLabel 1450 4950 0    50   Input ~ 0
-IO_D00
 Text GLabel 1450 4350 0    50   Input ~ 0
 XC_RST
 Text GLabel 1450 3850 0    50   Input ~ 0
@@ -270,14 +268,6 @@ Text GLabel 5450 3050 2    50   Input ~ 0
 LED_7
 Text GLabel 5450 4850 2    50   Input ~ 0
 LED_8
-Text GLabel 5450 4450 2    50   Input ~ 0
-IO_XX2
-Text GLabel 5450 4550 2    50   Input ~ 0
-IO_XX3
-Text GLabel 5450 4950 2    50   Input ~ 0
-IO_XX4
-Text GLabel 5450 6050 2    50   Input ~ 0
-IO_XX5
 Wire Wire Line
 	1400 1050 1550 1050
 Wire Wire Line
@@ -299,8 +289,6 @@ Text GLabel 1450 2950 0    50   Input ~ 0
 DAC_VREFA
 Text GLabel 1450 3750 0    50   Input ~ 0
 DAC_VREFB
-Text GLabel 1450 4850 0    50   Input ~ 0
-IO_XX0
 Text GLabel 1450 4250 0    50   Input ~ 0
 LED_4
 Text GLabel 1450 3950 0    50   Input ~ 0
@@ -465,4 +453,10 @@ NoConn ~ 1450 2650
 NoConn ~ 1450 3050
 NoConn ~ 5450 5250
 NoConn ~ 5450 5350
+NoConn ~ 1450 4850
+NoConn ~ 1450 4950
+NoConn ~ 5450 4450
+NoConn ~ 5450 4550
+NoConn ~ 5450 4950
+NoConn ~ 5450 6050
 $EndSCHEMATC

@@ -3,13 +3,13 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 10
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Sheet 9 11
+Title "Inputs and Outputs"
+Date "2021-04-08"
+Rev "0.2 "
+Comp "QRoboticsLab"
+Comment1 "by EGU"
+Comment2 "by JKGR"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -1350,8 +1350,6 @@ F 3 "" H 2550 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2550 4150 2550 4250
-Wire Wire Line
 	3200 4100 2700 4100
 Wire Wire Line
 	2700 4100 2700 4250
@@ -1530,4 +1528,6 @@ Text GLabel 7250 5300 2    50   Input ~ 0
 IO_F02
 Text GLabel 7250 5400 2    50   Input ~ 0
 IO_F01
+Wire Wire Line
+	2550 4150 2550 4250
 $EndSCHEMATC

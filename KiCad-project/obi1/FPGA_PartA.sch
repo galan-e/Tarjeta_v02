@@ -3,13 +3,13 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 10
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Sheet 2 11
+Title "Spartan6 FTG256 Part A"
+Date "2021-04-08"
+Rev "0.2 "
+Comp "QRoboticsLab"
+Comment1 "by EGU"
+Comment2 "by JKGR"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -431,10 +431,6 @@ XC_RST
 Wire Wire Line
 	9900 4000 9200 4000
 Connection ~ 9200 4000
-Text GLabel 1550 5100 0    50   Input ~ 0
-IO_I03
-Text GLabel 1550 5200 0    50   Input ~ 0
-IO_I04
 NoConn ~ 1550 3900
 Text GLabel 5550 3100 2    50   Input ~ 0
 IMU_PB00
@@ -574,4 +570,6 @@ NoConn ~ 1550 4500
 NoConn ~ 1550 4000
 NoConn ~ 1550 3800
 NoConn ~ 1550 3700
+NoConn ~ 1550 5100
+NoConn ~ 1550 5200
 $EndSCHEMATC
