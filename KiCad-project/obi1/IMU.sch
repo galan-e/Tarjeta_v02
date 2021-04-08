@@ -79,7 +79,7 @@ Wire Wire Line
 Connection ~ 4250 6550
 Wire Wire Line
 	4250 6550 4350 6550
-Text GLabel 2400 4600 0    50   Input ~ 0
+Text GLabel 2150 4400 0    50   Input ~ 0
 nReset
 $Comp
 L Device:C C43
@@ -106,17 +106,14 @@ Wire Wire Line
 $Comp
 L Device:R R20
 U 1 1 605FCDD0
-P 3200 4700
-F 0 "R20" V 2993 4700 50  0000 C CNN
-F 1 "@10K;1/4W;0805;1%" V 3100 4700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3130 4700 50  0001 C CNN
-F 3 "~" H 3200 4700 50  0001 C CNN
-	1    3200 4700
+P 3200 4150
+F 0 "R20" V 2993 4150 50  0000 C CNN
+F 1 "@10K;1/4W;0805;1%" V 3100 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3130 4150 50  0001 C CNN
+F 3 "~" H 3200 4150 50  0001 C CNN
+	1    3200 4150
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3050 4700 3000 4700
-Connection ~ 3000 4700
 $Comp
 L Device:C C45
 U 1 1 605FF628
@@ -196,17 +193,8 @@ Wire Wire Line
 	4450 4150 5650 4150
 Connection ~ 5650 4250
 Wire Wire Line
-	4450 4150 3000 4150
+	4450 4150 3350 4150
 Connection ~ 4450 4150
-Wire Wire Line
-	3000 4150 3000 4300
-Wire Wire Line
-	3000 4300 3000 4700
-Connection ~ 3000 4300
-Wire Wire Line
-	4450 4300 3000 4300
-Wire Wire Line
-	4450 4300 4450 4150
 Wire Wire Line
 	4450 4500 4700 4500
 Wire Wire Line
@@ -252,28 +240,37 @@ Wire Wire Line
 	2500 6550 3950 6550
 Wire Wire Line
 	3550 4800 3050 4800
-Wire Wire Line
-	3350 4700 3550 4700
 $Comp
 L Device:R R19
 U 1 1 60650B61
 P 2600 4600
 F 0 "R19" V 2393 4600 50  0000 C CNN
-F 1 "@20;1/4W;0805;1%" V 2500 4600 50  0000 C CNN
+F 1 "@10;1/4W;0805;1%" V 2500 4600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2530 4600 50  0001 C CNN
 F 3 "~" H 2600 4600 50  0001 C CNN
 	1    2600 4600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2450 4600 2400 4600
-Wire Wire Line
-	2750 4600 2750 4700
-Wire Wire Line
 	2750 5350 2350 5350
 Wire Wire Line
-	2750 4700 3000 4700
-Connection ~ 2750 4700
+	2200 4600 2200 4400
 Wire Wire Line
-	2750 4700 2750 5350
+	2200 4400 2150 4400
+Wire Wire Line
+	2200 4600 2450 4600
+Wire Wire Line
+	3050 4150 3000 4150
+Wire Wire Line
+	2750 4600 2750 5350
+Wire Wire Line
+	3550 4600 3550 4700
+Connection ~ 2750 4600
+Wire Wire Line
+	3000 4150 3000 4600
+Wire Wire Line
+	2750 4600 3000 4600
+Connection ~ 3000 4600
+Wire Wire Line
+	3000 4600 3550 4600
 $EndSCHEMATC

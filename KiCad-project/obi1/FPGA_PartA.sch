@@ -232,10 +232,6 @@ F 3 "" H 1550 1700 50  0001 C CNN
 	1    1550 1700
 	-1   0    0    1   
 $EndComp
-Text GLabel 1550 1800 0    50   Input ~ 0
-D+
-Text GLabel 1550 1900 0    50   Input ~ 0
-D-
 Text GLabel 5550 2000 2    50   Input ~ 0
 ADC_CS
 Text GLabel 5550 1800 2    50   Input ~ 0
@@ -244,27 +240,9 @@ Text GLabel 5550 2300 2    50   Input ~ 0
 ADC_DOUT
 Text GLabel 5550 1900 2    50   Input ~ 0
 ADC_DIN
-Text GLabel 5550 4800 2    50   Input ~ 0
-IMU_SCX
-Text GLabel 5550 4000 2    50   Input ~ 0
-DS_2_XC1
-Text GLabel 5550 4100 2    50   Input ~ 0
-DS_2_XC2
-Text GLabel 6900 1250 2    50   Input ~ 0
-DS_2_XC3
-Text GLabel 5550 4300 2    50   Input ~ 0
-DS_2_XC4
-Text GLabel 5550 4400 2    50   Input ~ 0
-DS_2_XC5
-Text GLabel 5550 4600 2    50   Input ~ 0
-DS_2_XC7
-Text GLabel 6950 1350 2    50   Input ~ 0
-DS_2_XC8
-Text GLabel 5550 5000 2    50   Input ~ 0
-3v3_2_XC00
-Text GLabel 5550 4900 2    50   Input ~ 0
+Text GLabel 5550 3200 2    50   Input ~ 0
 3v3_2_XC01
-Text GLabel 5550 5600 2    50   Input ~ 0
+Text GLabel 5550 2900 2    50   Input ~ 0
 3v3_2_XC02
 Text GLabel 5550 5400 2    50   Input ~ 0
 3v3_2_XC03
@@ -276,10 +254,6 @@ Text GLabel 5550 5800 2    50   Input ~ 0
 3v3_2_XC06
 Text GLabel 5550 5700 2    50   Input ~ 0
 3v3_2_XC07
-Text GLabel 5550 6600 2    50   Input ~ 0
-3v3_2_XC09
-Text GLabel 5550 6400 2    50   Input ~ 0
-3v3_2_XC10
 Text GLabel 5550 6100 2    50   Input ~ 0
 3v3_2_XC11
 Text GLabel 5550 6300 2    50   Input ~ 0
@@ -457,238 +431,147 @@ XC_RST
 Wire Wire Line
 	9900 4000 9200 4000
 Connection ~ 9200 4000
-Text GLabel 5550 5100 2    50   Input ~ 0
-IO_E01
-Text GLabel 5550 6700 2    50   Input ~ 0
-IO_E03
-Text GLabel 5550 6800 2    50   Input ~ 0
-IO_E04
-Text GLabel 5550 6900 2    50   Input ~ 0
-IO_E05
-Text GLabel 5550 7000 2    50   Input ~ 0
-IO_E06
-Text GLabel 1550 2100 0    50   Input ~ 0
-IO_E07
-Text GLabel 1550 2200 0    50   Input ~ 0
-IO_F00
-Text GLabel 1550 2300 0    50   Input ~ 0
-IO_F01
-Text GLabel 1550 2400 0    50   Input ~ 0
-IO_F02
-Text GLabel 1550 2500 0    50   Input ~ 0
-IO_F03
-Text GLabel 1550 2600 0    50   Input ~ 0
-IO_F04
-Text GLabel 1550 2700 0    50   Input ~ 0
-IO_F05
-Text GLabel 1550 2800 0    50   Input ~ 0
-IO_F06
-Text GLabel 1550 2900 0    50   Input ~ 0
-IO_F07
-Text GLabel 1550 3000 0    50   Input ~ 0
-IO_G00
-Text GLabel 1550 3200 0    50   Input ~ 0
-IO_G02
-Text GLabel 1550 3500 0    50   Input ~ 0
-IO_G03
-Text GLabel 1550 3600 0    50   Input ~ 0
-IO_G04
-Text GLabel 1550 3700 0    50   Input ~ 0
-IO_G05
-Text GLabel 1550 3800 0    50   Input ~ 0
-IO_G06
-Text GLabel 1550 3100 0    50   Input ~ 0
-IO_G01
-Text GLabel 1550 4000 0    50   Input ~ 0
-IO_H00
-Text GLabel 1550 4100 0    50   Input ~ 0
-IO_H01
-Text GLabel 1550 4200 0    50   Input ~ 0
-IO_H02
-Text GLabel 1550 4300 0    50   Input ~ 0
-IO_H03
-Text GLabel 1550 4400 0    50   Input ~ 0
-IO_H04
-Text GLabel 1550 4500 0    50   Input ~ 0
-IO_H05
-Text GLabel 1550 4600 0    50   Input ~ 0
-IO_H06
-Text GLabel 1550 4700 0    50   Input ~ 0
-IO_H07
-Text GLabel 1550 4800 0    50   Input ~ 0
-IO_I00
-Text GLabel 1550 4900 0    50   Input ~ 0
-IO_I01
-Text GLabel 1550 5000 0    50   Input ~ 0
-IO_I02
 Text GLabel 1550 5100 0    50   Input ~ 0
 IO_I03
 Text GLabel 1550 5200 0    50   Input ~ 0
 IO_I04
-Text GLabel 1550 5300 0    50   Input ~ 0
-IO_I05
-Text GLabel 1550 5400 0    50   Input ~ 0
-IO_I06
-Text GLabel 1550 5500 0    50   Input ~ 0
-IO_I07
-Text GLabel 6900 1950 2    50   Input ~ 0
-IO_C01
-Text GLabel 6950 1600 2    50   Input ~ 0
-IO_C02
-Text GLabel 6950 1500 2    50   Input ~ 0
-IO_C03
-Text GLabel 7000 1150 2    50   Input ~ 0
-IO_C04
-Text GLabel 7000 1050 2    50   Input ~ 0
-IO_C05
-Text GLabel 1550 5600 0    50   Input ~ 0
-IO_C07
-Text GLabel 6900 1850 2    50   Input ~ 0
-IO_C00
-Text GLabel 1550 2000 0    50   Input ~ 0
-IO_D02
-Text GLabel 5550 6500 2    50   Input ~ 0
-3v3_2_XC08
-Text GLabel 6900 1750 2    50   Input ~ 0
-IO_E00
-Text GLabel 5550 5500 2    50   Input ~ 0
-IO_E02
-Text GLabel 5550 4500 2    50   Input ~ 0
-DS_2_XC6
 NoConn ~ 1550 3900
-Text GLabel 5550 2100 2    50   Input ~ 0
-IMU_PB00
-Text GLabel 5550 2200 2    50   Input ~ 0
-IMU_PB01
-Text GLabel 5550 3700 2    50   Input ~ 0
-IMU_PB02
-Text GLabel 5550 3800 2    50   Input ~ 0
-IMU_PB03
-Text GLabel 5550 3900 2    50   Input ~ 0
-IMU_PB16
-Text GLabel 5550 4200 2    50   Input ~ 0
-IMU_PB17
-Text GLabel 5550 4700 2    50   Input ~ 0
-IMU_PB23
-Text GLabel 5550 2700 2    50   Input ~ 0
-IMU_PA31
-Text GLabel 5550 2800 2    50   Input ~ 0
-IMU_PA30
-Text GLabel 5550 2900 2    50   Input ~ 0
-IMU_PA28
-Text GLabel 5550 3000 2    50   Input ~ 0
-IMU_PA27
 Text GLabel 5550 3100 2    50   Input ~ 0
-IMU_PA24
-Text GLabel 5550 3200 2    50   Input ~ 0
-IMU_PA23
-Text GLabel 5550 3300 2    50   Input ~ 0
-IMU_PA22
-Text GLabel 5550 3400 2    50   Input ~ 0
-IMU_PA21
-Text GLabel 5550 3500 2    50   Input ~ 0
-IMU_PA20
-Text GLabel 5550 3600 2    50   Input ~ 0
-IMU_PA19
+IMU_PB00
+Text GLabel 5550 3000 2    50   Input ~ 0
+IMU_PB01
 Text GLabel 5550 2400 2    50   Input ~ 0
+IMU_PB02
+Text GLabel 5550 2800 2    50   Input ~ 0
+IMU_PB03
+Text GLabel 5550 5500 2    50   Input ~ 0
+IMU_PB16
+Text GLabel 5550 4000 2    50   Input ~ 0
+IMU_PB17
+Text GLabel 5550 4800 2    50   Input ~ 0
+IMU_PB23
+Text GLabel 5550 3400 2    50   Input ~ 0
+IMU_PA31
+Text GLabel 5550 3300 2    50   Input ~ 0
+IMU_PA30
+Text GLabel 5550 3600 2    50   Input ~ 0
+IMU_PA28
+Text GLabel 5550 3500 2    50   Input ~ 0
+IMU_PA27
+Text GLabel 5550 4700 2    50   Input ~ 0
+IMU_PA24
+Text GLabel 5550 4200 2    50   Input ~ 0
+IMU_PA23
+Text GLabel 5550 5000 2    50   Input ~ 0
+IMU_PA22
+Text GLabel 5550 4900 2    50   Input ~ 0
+IMU_PA21
+Text GLabel 5550 3900 2    50   Input ~ 0
+IMU_PA20
+Text GLabel 5550 4400 2    50   Input ~ 0
+IMU_PA19
+Text GLabel 5550 3800 2    50   Input ~ 0
 IMU_PA18
-Text GLabel 5550 2500 2    50   Input ~ 0
+Text GLabel 5550 2100 2    50   Input ~ 0
 IMU_PA17
-Text GLabel 5550 2600 2    50   Input ~ 0
+Text GLabel 5550 2200 2    50   Input ~ 0
 IMU_PA16
-Text GLabel 10550 3900 2    50   Input ~ 0
-DS_2_XC8
-Text GLabel 10950 4600 0    50   Input ~ 0
-IO_A05
-Text GLabel 10650 3300 2    50   Input ~ 0
-IO_A00
-Text GLabel 10650 3200 2    50   Input ~ 0
-IO_C05
-Text GLabel 10650 3500 2    50   Input ~ 0
-IO_D00
-Text GLabel 10650 3800 2    50   Input ~ 0
-IO_D03
-Text GLabel 10600 4000 2    50   Input ~ 0
-IO_D06
-Text GLabel 10600 4100 2    50   Input ~ 0
-IO_D07
-Text GLabel 10650 3000 2    50   Input ~ 0
-IO_E03
-Text GLabel 10650 2900 2    50   Input ~ 0
-IO_E00
-Text GLabel 10950 4200 0    50   Input ~ 0
-IO_F03
-Text GLabel 11000 3100 0    50   Input ~ 0
-IO_F04
-Text GLabel 10950 4700 0    50   Input ~ 0
-IO_F05
-Text GLabel 10950 4400 0    50   Input ~ 0
-IO_I03
-Text GLabel 10950 4500 0    50   Input ~ 0
-IO_I04
-Text GLabel 10950 4800 0    50   Input ~ 0
-IO_XX0
-Text GLabel 10950 4900 0    50   Input ~ 0
-IO_XX1
-Text GLabel 10950 5000 0    50   Input ~ 0
-IO_XX2
-Text GLabel 10950 5100 0    50   Input ~ 0
-IO_XX3
-Text GLabel 10950 5200 0    50   Input ~ 0
-IO_XX4
-Text GLabel 10950 5300 0    50   Input ~ 0
-IO_XX5
-Text GLabel 10950 4300 0    50   Input ~ 0
-IO_H02
-Text GLabel 10650 3700 2    50   Input ~ 0
-IO_G06
-Text GLabel 10650 3400 2    50   Input ~ 0
-IO_G05
-NoConn ~ 10650 3300
-NoConn ~ 10650 2900
-NoConn ~ 10650 3000
-NoConn ~ 10650 3200
-NoConn ~ 10650 3400
-NoConn ~ 10600 4000
-NoConn ~ 10600 4100
-NoConn ~ 10950 4600
-Text GLabel 10550 3600 2    50   Input ~ 0
-DS_2_XC3
-NoConn ~ 11000 3100
-NoConn ~ 10650 3500
-NoConn ~ 10550 3600
-NoConn ~ 10650 3700
-NoConn ~ 10650 3800
-NoConn ~ 10550 3900
-NoConn ~ 10950 4200
-NoConn ~ 10950 4300
-NoConn ~ 10950 4400
-NoConn ~ 10950 4500
-NoConn ~ 10950 4700
-NoConn ~ 10950 4800
-NoConn ~ 10950 4900
-NoConn ~ 10950 5000
-NoConn ~ 10950 5100
-NoConn ~ 10950 5200
-NoConn ~ 10950 5300
-NoConn ~ 7000 1050
-NoConn ~ 7000 1150
-NoConn ~ 6900 1250
-NoConn ~ 6950 1350
-NoConn ~ 6950 1500
-NoConn ~ 6950 1600
-NoConn ~ 6900 1750
-NoConn ~ 6900 1850
-NoConn ~ 6900 1950
-Text GLabel 6950 2200 2    50   Input ~ 0
-IO_C06
 Text GLabel 5550 1700 2    50   Input ~ 0
 nReset
-NoConn ~ 6950 2200
 Wire Wire Line
 	7700 2800 7700 2550
 Wire Wire Line
 	7700 2550 8900 2550
 Connection ~ 8900 2550
-NoConn ~ 1550 3400
+Text GLabel 5550 2500 2    50   Input ~ 0
+3v3_2_XC00
+Text GLabel 5550 2600 2    50   Input ~ 0
+IMU_SCX
+Text GLabel 5550 6500 2    50   Input ~ 0
+XC_P12
+Text GLabel 5550 6600 2    50   Input ~ 0
+XC_T10
+Text GLabel 5550 6400 2    50   Input ~ 0
+XC_R11
+Text GLabel 5550 5600 2    50   Input ~ 0
+3v3_2_XC10
+Text GLabel 5550 4100 2    50   Input ~ 0
+3v3_2_XC08
+Text GLabel 5550 7000 2    50   Input ~ 0
+3v3_2_XC09
+Text GLabel 5550 5100 2    50   Input ~ 0
+IO_A02
+Text GLabel 5550 6900 2    50   Input ~ 0
+IO_A03
+Text GLabel 5550 4300 2    50   Input ~ 0
+IO_B07
+Text GLabel 1550 3100 0    50   Input ~ 0
+IO_E02
+Text GLabel 1550 4600 0    50   Input ~ 0
+IO_E03
+Text GLabel 1550 2400 0    50   Input ~ 0
+IO_E04
+Text GLabel 1550 4100 0    50   Input ~ 0
+IO_E05
+Text GLabel 1550 4200 0    50   Input ~ 0
+IO_E06
+Text GLabel 1550 2600 0    50   Input ~ 0
+IO_E07
+Text GLabel 1550 2800 0    50   Input ~ 0
+IO_E01
+Text GLabel 1550 2200 0    50   Input ~ 0
+IO_F03
+Text GLabel 1550 2300 0    50   Input ~ 0
+IO_F04
+Text GLabel 1550 2100 0    50   Input ~ 0
+IO_F05
+Text GLabel 1550 1800 0    50   Input ~ 0
+IO_F06
+Text GLabel 1550 2000 0    50   Input ~ 0
+IO_F07
+Text GLabel 1550 2900 0    50   Input ~ 0
+IO_F02
+Text GLabel 1550 3000 0    50   Input ~ 0
+IO_F01
+Text GLabel 1550 5500 0    50   Input ~ 0
+IO_C01
+Text GLabel 1550 4900 0    50   Input ~ 0
+IO_C02
+Text GLabel 1550 5300 0    50   Input ~ 0
+IO_C03
+Text GLabel 5550 2700 2    50   Input ~ 0
+IO_C04
+Text GLabel 1550 5000 0    50   Input ~ 0
+IO_C05
+Text GLabel 1550 5400 0    50   Input ~ 0
+IO_C06
+Text GLabel 1550 4800 0    50   Input ~ 0
+IO_C07
+Text GLabel 1550 4700 0    50   Input ~ 0
+IO_D01
+Text GLabel 1550 3500 0    50   Input ~ 0
+IO_D05
+Text GLabel 1550 3600 0    50   Input ~ 0
+IO_D04
+Text GLabel 1550 4300 0    50   Input ~ 0
+IO_D03
+Text GLabel 1550 4400 0    50   Input ~ 0
+IO_D02
+Text GLabel 1550 3400 0    50   Input ~ 0
+IO_D07
+Text GLabel 1550 3200 0    50   Input ~ 0
+IO_D06
+NoConn ~ 5550 6700
+NoConn ~ 5550 6800
+NoConn ~ 5550 4500
+NoConn ~ 5550 4600
+NoConn ~ 5550 3700
+NoConn ~ 1550 1900
+NoConn ~ 1550 2500
+NoConn ~ 1550 2700
+NoConn ~ 1550 5600
+NoConn ~ 1550 4500
+NoConn ~ 1550 4000
+NoConn ~ 1550 3800
+NoConn ~ 1550 3700
 $EndSCHEMATC

@@ -266,20 +266,6 @@ Text GLabel 1650 4000 2    50   Input ~ 0
 DS_7
 Text GLabel 1650 4500 2    50   Input ~ 0
 DS_8
-Text GLabel 6800 3450 0    50   Input ~ 0
-DS_2_XC1
-Text GLabel 6800 3650 0    50   Input ~ 0
-DS_2_XC2
-Text GLabel 6800 3750 0    50   Input ~ 0
-DS_2_XC4
-Text GLabel 6800 3950 0    50   Input ~ 0
-DS_2_XC5
-Text GLabel 6800 3850 0    50   Input ~ 0
-DS_2_XC6
-Text GLabel 7300 3850 2    50   Input ~ 0
-DS_2_XC7
-Text GLabel 9500 4150 2    50   Input ~ 0
-DS_2_XC8
 $Comp
 L power:GND #PWR084
 U 1 1 5DB4F3F0
@@ -1000,46 +986,36 @@ F 3 "~" H 7200 1200 50  0001 C CNN
 $EndComp
 Text GLabel 6600 2200 0    50   Input ~ 0
 LED_8
-Text GLabel 7300 3750 2    50   Input ~ 0
+Text GLabel 6800 3350 0    50   Input ~ 0
 IO_A02
-Text GLabel 7300 3550 2    50   Input ~ 0
+Text GLabel 6800 3450 0    50   Input ~ 0
 IO_A03
-Text GLabel 9900 4850 0    50   Input ~ 0
+Text GLabel 6800 3650 0    50   Input ~ 0
 IO_A05
-Text GLabel 7300 3450 2    50   Input ~ 0
+Text GLabel 6800 3750 0    50   Input ~ 0
 IO_A06
-Text GLabel 7300 3650 2    50   Input ~ 0
+Text GLabel 6800 3250 0    50   Input ~ 0
 IO_A01
-Text GLabel 9600 3550 2    50   Input ~ 0
+Text GLabel 6800 3150 0    50   Input ~ 0
 IO_A00
-Text GLabel 7300 3350 2    50   Input ~ 0
+Text GLabel 7300 3750 2    50   Input ~ 0
 IO_B01
 Text GLabel 7300 3250 2    50   Input ~ 0
 IO_B06
-Text GLabel 6800 3350 0    50   Input ~ 0
-IO_C00
-Text GLabel 6800 3550 0    50   Input ~ 0
-IO_C01
 Text GLabel 6750 4800 0    50   Input ~ 0
-IO_C02
-Text GLabel 6750 5100 0    50   Input ~ 0
-IO_C03
+IO_C01
 Text GLabel 6750 4900 0    50   Input ~ 0
-IO_C04
-Text GLabel 9600 3450 2    50   Input ~ 0
-IO_C05
+IO_C02
 Text GLabel 6750 5000 0    50   Input ~ 0
+IO_C03
+Text GLabel 6750 5100 0    50   Input ~ 0
+IO_C04
+Text GLabel 6750 5200 0    50   Input ~ 0
+IO_C05
+Text GLabel 6750 5300 0    50   Input ~ 0
 IO_C06
-Text GLabel 8100 5900 0    50   Input ~ 0
+Text GLabel 6750 5400 0    50   Input ~ 0
 IO_C07
-Text GLabel 9600 3750 2    50   Input ~ 0
-IO_D00
-Text GLabel 9600 4050 2    50   Input ~ 0
-IO_D03
-Text GLabel 9550 4250 2    50   Input ~ 0
-IO_D06
-Text GLabel 9550 4350 2    50   Input ~ 0
-IO_D07
 $Comp
 L Connector_Generic:Conn_02x17_Counter_Clockwise J7
 U 1 1 5DAE7502
@@ -1062,74 +1038,6 @@ F 3 "" H 6350 6400 50  0001 C CNN
 	1    6350 6400
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6300 5600 6750 5600
-Wire Wire Line
-	7850 5600 7250 5600
-Text GLabel 6800 4150 0    50   Input ~ 0
-IO_E02
-Text GLabel 9600 3250 2    50   Input ~ 0
-IO_E03
-Text GLabel 6800 4050 0    50   Input ~ 0
-IO_E04
-Text GLabel 7300 4050 2    50   Input ~ 0
-IO_E05
-Text GLabel 7300 4150 2    50   Input ~ 0
-IO_E06
-Text GLabel 7250 5700 2    50   Input ~ 0
-IO_E07
-Text GLabel 7300 3950 2    50   Input ~ 0
-IO_E01
-Text GLabel 9600 3150 2    50   Input ~ 0
-IO_E00
-Text GLabel 7250 5900 2    50   Input ~ 0
-IO_F00
-Text GLabel 9900 4450 0    50   Input ~ 0
-IO_F03
-Text GLabel 9950 3350 0    50   Input ~ 0
-IO_F04
-Text GLabel 9900 4950 0    50   Input ~ 0
-IO_F05
-Text GLabel 7250 5200 2    50   Input ~ 0
-IO_F06
-Text GLabel 7850 5600 2    50   Input ~ 0
-IO_F07
-Text GLabel 7250 5800 2    50   Input ~ 0
-IO_G00
-Text GLabel 7250 5400 2    50   Input ~ 0
-IO_G02
-Text GLabel 6750 5800 0    50   Input ~ 0
-IO_G03
-Text GLabel 6750 6100 0    50   Input ~ 0
-IO_G04
-Text GLabel 6750 5700 0    50   Input ~ 0
-IO_I00
-Text GLabel 6750 6000 0    50   Input ~ 0
-IO_I01
-Text GLabel 6750 5500 0    50   Input ~ 0
-IO_I02
-Text GLabel 9900 4650 0    50   Input ~ 0
-IO_I03
-Text GLabel 9900 4750 0    50   Input ~ 0
-IO_I04
-Text GLabel 6750 5300 0    50   Input ~ 0
-IO_I05
-Text GLabel 6750 5200 0    50   Input ~ 0
-IO_I06
-Text GLabel 8100 6000 0    50   Input ~ 0
-IO_I07
-Text GLabel 9900 5050 0    50   Input ~ 0
-IO_XX0
-Text GLabel 9900 5150 0    50   Input ~ 0
-IO_XX1
-Text GLabel 9900 5250 0    50   Input ~ 0
-IO_XX2
-Text GLabel 9900 5350 0    50   Input ~ 0
-IO_XX3
-Text GLabel 9900 5450 0    50   Input ~ 0
-IO_XX4
-Text GLabel 9900 5550 0    50   Input ~ 0
-IO_XX5
 $Comp
 L power:GND #PWR091
 U 1 1 5DB362A5
@@ -1197,37 +1105,9 @@ Wire Wire Line
 Connection ~ 1450 1000
 Wire Wire Line
 	1450 1000 1650 1000
-Text GLabel 6750 5400 0    50   Input ~ 0
-IO_H07
-Text GLabel 7250 6000 2    50   Input ~ 0
-IO_H06
-Text GLabel 7850 6100 2    50   Input ~ 0
-IO_H05
-Text GLabel 6750 5900 0    50   Input ~ 0
-IO_H04
-Text GLabel 6300 5600 0    50   Input ~ 0
-IO_H03
-Text GLabel 9900 4550 0    50   Input ~ 0
-IO_H02
-Text GLabel 7250 6100 2    50   Input ~ 0
-IO_H01
-Text GLabel 7850 6200 2    50   Input ~ 0
-IO_H00
-Text GLabel 7250 5500 2    50   Input ~ 0
-IO_G01
-Text GLabel 9600 3950 2    50   Input ~ 0
-IO_G06
-Text GLabel 9600 3650 2    50   Input ~ 0
-IO_G05
-Text GLabel 7250 5300 2    50   Input ~ 0
-IO_F02
-Text GLabel 7250 5000 2    50   Input ~ 0
-IO_F01
-Text GLabel 7250 5100 2    50   Input ~ 0
-IO_D02
-Text GLabel 7250 4800 2    50   Input ~ 0
+Text GLabel 7300 3150 2    50   Input ~ 0
 IO_B07
-Text GLabel 7250 4900 2    50   Input ~ 0
+Text GLabel 7300 3450 2    50   Input ~ 0
 IO_B04
 Wire Wire Line
 	7250 6400 7750 6400
@@ -1249,94 +1129,18 @@ Wire Wire Line
 	1450 3650 1550 3650
 Wire Wire Line
 	1450 4150 1550 4150
-Text GLabel 2050 4150 2    50   Input ~ 0
-IO_D05
-Text GLabel 2050 1650 2    50   Input ~ 0
-IO_D04
-Text GLabel 2050 3650 2    50   Input ~ 0
-IO_D01
-Text GLabel 2050 1150 2    50   Input ~ 0
-IO_B05
-Text GLabel 2050 650  2    50   Input ~ 0
-IO_B03
-Text GLabel 7300 3150 2    50   Input ~ 0
+Text GLabel 7300 3650 2    50   Input ~ 0
 IO_B02
-Text GLabel 2050 3150 2    50   Input ~ 0
-IO_B00
-Text GLabel 2050 2150 2    50   Input ~ 0
-IO_A07
-Text GLabel 2050 2650 2    50   Input ~ 0
-IO_A04
-NoConn ~ 9600 3550
-NoConn ~ 9600 3150
-NoConn ~ 9600 3250
-NoConn ~ 9600 3450
-NoConn ~ 9600 3650
-NoConn ~ 9550 4250
-NoConn ~ 9550 4350
-NoConn ~ 9900 4850
-Text GLabel 9500 3850 2    50   Input ~ 0
-DS_2_XC3
-NoConn ~ 9950 3350
-NoConn ~ 9600 3750
-NoConn ~ 9500 3850
-NoConn ~ 9600 3950
-NoConn ~ 9600 4050
-NoConn ~ 9500 4150
-NoConn ~ 9900 4450
-NoConn ~ 9900 4550
-NoConn ~ 9900 4650
-NoConn ~ 9900 4750
-NoConn ~ 9900 4950
-NoConn ~ 9900 5050
-NoConn ~ 9900 5150
-NoConn ~ 9900 5250
-NoConn ~ 9900 5350
-NoConn ~ 9900 5450
-NoConn ~ 9900 5550
-$Comp
-L Connector_Generic:Conn_02x11_Counter_Clockwise J8
-U 1 1 5E04F8C7
-P 7000 3650
-F 0 "J8" H 7050 4400 50  0000 C CNN
-F 1 "Conn_02x11_Counter_Clockwise" H 7050 4300 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x11_P2.54mm_Vertical" H 7000 3650 50  0001 C CNN
-F 3 "~" H 7000 3650 50  0001 C CNN
-	1    7000 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR087
-U 1 1 5E0EED2D
-P 6400 3200
-F 0 "#PWR087" H 6400 2950 50  0001 C CNN
-F 1 "GND" H 6450 3000 50  0000 C CNN
-F 2 "" H 6400 3200 50  0001 C CNN
-F 3 "" H 6400 3200 50  0001 C CNN
-	1    6400 3200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6800 3150 6800 3200
-Wire Wire Line
-	6800 3200 6400 3200
-Connection ~ 6800 3200
-Wire Wire Line
-	6800 3200 6800 3250
-NoConn ~ 8100 5900
-NoConn ~ 8100 6000
-NoConn ~ 7850 6100
-NoConn ~ 7850 6200
 $Comp
 L power:+5V #PWR088
 U 1 1 5DBD216D
-P 6550 6250
-F 0 "#PWR088" H 6550 6100 50  0001 C CNN
-F 1 "+5V" H 6600 6450 50  0000 C CNN
-F 2 "" H 6550 6250 50  0001 C CNN
-F 3 "" H 6550 6250 50  0001 C CNN
-	1    6550 6250
-	0    -1   -1   0   
+P 7300 6250
+F 0 "#PWR088" H 7300 6100 50  0001 C CNN
+F 1 "+5V" H 7350 6450 50  0000 C CNN
+F 2 "" H 7300 6250 50  0001 C CNN
+F 3 "" H 7300 6250 50  0001 C CNN
+	1    7300 6250
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	6750 6200 6550 6200
@@ -1350,13 +1154,13 @@ Wire Wire Line
 $Comp
 L power:+3V3 #PWR089
 U 1 1 5DBE1FCA
-P 7300 6250
-F 0 "#PWR089" H 7300 6100 50  0001 C CNN
-F 1 "+3V3" H 7300 6450 50  0000 C CNN
-F 2 "" H 7300 6250 50  0001 C CNN
-F 3 "" H 7300 6250 50  0001 C CNN
-	1    7300 6250
-	0    1    1    0   
+P 6550 6250
+F 0 "#PWR089" H 6550 6100 50  0001 C CNN
+F 1 "+3V3" H 6550 6450 50  0000 C CNN
+F 2 "" H 6550 6250 50  0001 C CNN
+F 3 "" H 6550 6250 50  0001 C CNN
+	1    6550 6250
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	7250 6200 7300 6200
@@ -1555,4 +1359,175 @@ Wire Wire Line
 	2700 4250 2550 4250
 Wire Wire Line
 	3000 1100 3000 1050
+Text GLabel 2050 2650 2    50   Input ~ 0
+DS_2_XC5
+Text GLabel 2050 2150 2    50   Input ~ 0
+DS_2_XC4
+Text GLabel 2050 1650 2    50   Input ~ 0
+DS_2_XC3
+Text GLabel 2050 650  2    50   Input ~ 0
+DS_2_XC1
+Text GLabel 2050 1150 2    50   Input ~ 0
+DS_2_XC2
+Text GLabel 2050 4150 2    50   Input ~ 0
+DS_2_XC8
+Text GLabel 2050 3150 2    50   Input ~ 0
+DS_2_XC6
+Text GLabel 2050 3650 2    50   Input ~ 0
+DS_2_XC7
+Text GLabel 7300 3550 2    50   Input ~ 0
+IO_B03
+Text GLabel 7300 3850 2    50   Input ~ 0
+IO_B00
+Text GLabel 6800 3550 0    50   Input ~ 0
+IO_A04
+Text GLabel 6800 3850 0    50   Input ~ 0
+IO_A07
+Text GLabel 7300 3350 2    50   Input ~ 0
+IO_B05
+$Comp
+L power:+3V3 #PWR0101
+U 1 1 60774857
+P 6400 4000
+F 0 "#PWR0101" H 6400 3850 50  0001 C CNN
+F 1 "+3V3" H 6400 4200 50  0000 C CNN
+F 2 "" H 6400 4000 50  0001 C CNN
+F 3 "" H 6400 4000 50  0001 C CNN
+	1    6400 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 4150 6800 4250
+Wire Wire Line
+	7300 4300 7300 4150
+$Comp
+L power:GND #PWR0102
+U 1 1 6078304D
+P 6650 4250
+F 0 "#PWR0102" H 6650 4000 50  0001 C CNN
+F 1 "GND" H 6700 4050 50  0000 C CNN
+F 2 "" H 6650 4250 50  0001 C CNN
+F 3 "" H 6650 4250 50  0001 C CNN
+	1    6650 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6650 4250 6800 4250
+$Comp
+L power:+5V #PWR?
+U 1 1 60793206
+P 7500 4000
+AR Path="/60793206" Ref="#PWR?"  Part="1" 
+AR Path="/5D9CE1BD/60793206" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 7500 3850 50  0001 C CNN
+F 1 "+5V" H 7515 4173 50  0000 C CNN
+F 2 "" H 7500 4000 50  0001 C CNN
+F 3 "" H 7500 4000 50  0001 C CNN
+	1    7500 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 60A03477
+P 7300 4300
+F 0 "#PWR0104" H 7300 4050 50  0001 C CNN
+F 1 "GND" H 7350 4100 50  0000 C CNN
+F 2 "" H 7300 4300 50  0001 C CNN
+F 3 "" H 7300 4300 50  0001 C CNN
+	1    7300 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x11_Counter_Clockwise J8
+U 1 1 5E04F8C7
+P 7000 3650
+F 0 "J8" H 7050 4400 50  0000 C CNN
+F 1 "Conn_02x11_Counter_Clockwise" H 7050 4300 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x11_P2.54mm_Vertical" H 7000 3650 50  0001 C CNN
+F 3 "~" H 7000 3650 50  0001 C CNN
+	1    7000 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 3950 7500 3950
+Wire Wire Line
+	7500 3950 7500 4000
+$Comp
+L power:+5V #PWR?
+U 1 1 60A09F67
+P 7350 4100
+AR Path="/60A09F67" Ref="#PWR?"  Part="1" 
+AR Path="/5D9CE1BD/60A09F67" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 7350 3950 50  0001 C CNN
+F 1 "+5V" H 7365 4273 50  0000 C CNN
+F 2 "" H 7350 4100 50  0001 C CNN
+F 3 "" H 7350 4100 50  0001 C CNN
+	1    7350 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7350 4100 7350 4050
+Wire Wire Line
+	7350 4050 7300 4050
+Wire Wire Line
+	6800 3950 6400 3950
+Wire Wire Line
+	6400 3950 6400 4000
+$Comp
+L power:+3V3 #PWR0106
+U 1 1 60A164C5
+P 6650 4100
+F 0 "#PWR0106" H 6650 3950 50  0001 C CNN
+F 1 "+3V3" H 6650 4300 50  0000 C CNN
+F 2 "" H 6650 4100 50  0001 C CNN
+F 3 "" H 6650 4100 50  0001 C CNN
+	1    6650 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 4050 6650 4050
+Wire Wire Line
+	6650 4050 6650 4100
+Text GLabel 6750 5500 0    50   Input ~ 0
+IO_D01
+Text GLabel 6750 5900 0    50   Input ~ 0
+IO_D05
+Text GLabel 6750 5800 0    50   Input ~ 0
+IO_D04
+Text GLabel 6750 5700 0    50   Input ~ 0
+IO_D03
+Text GLabel 6750 5600 0    50   Input ~ 0
+IO_D02
+Text GLabel 6750 6100 0    50   Input ~ 0
+IO_D07
+Text GLabel 6750 6000 0    50   Input ~ 0
+IO_D06
+Text GLabel 7250 6000 2    50   Input ~ 0
+IO_E02
+Text GLabel 7250 5900 2    50   Input ~ 0
+IO_E03
+Text GLabel 7250 5800 2    50   Input ~ 0
+IO_E04
+Text GLabel 7250 5700 2    50   Input ~ 0
+IO_E05
+Text GLabel 7250 5600 2    50   Input ~ 0
+IO_E06
+Text GLabel 7250 5500 2    50   Input ~ 0
+IO_E07
+Text GLabel 7250 6100 2    50   Input ~ 0
+IO_E01
+Text GLabel 7250 5200 2    50   Input ~ 0
+IO_F03
+Text GLabel 7250 5100 2    50   Input ~ 0
+IO_F04
+Text GLabel 7250 5000 2    50   Input ~ 0
+IO_F05
+Text GLabel 7250 4900 2    50   Input ~ 0
+IO_F06
+Text GLabel 7250 4800 2    50   Input ~ 0
+IO_F07
+Text GLabel 7250 5300 2    50   Input ~ 0
+IO_F02
+Text GLabel 7250 5400 2    50   Input ~ 0
+IO_F01
 $EndSCHEMATC
