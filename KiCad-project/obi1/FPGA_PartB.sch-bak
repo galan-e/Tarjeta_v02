@@ -182,82 +182,6 @@ Wire Wire Line
 	1400 1050 1400 1000
 Text GLabel 1450 5550 0    50   Input ~ 0
 XC_T3
-Text GLabel 5450 6950 2    50   Input ~ 0
-RAM_A0
-Text GLabel 5450 6650 2    50   Input ~ 0
-RAM_A1
-Text GLabel 5450 6450 2    50   Input ~ 0
-RAM_A2
-Text GLabel 5450 6750 2    50   Input ~ 0
-RAM_A3
-Text GLabel 5450 6850 2    50   Input ~ 0
-RAM_A4
-Text GLabel 5450 6550 2    50   Input ~ 0
-RAM_CE
-Text GLabel 5450 3850 2    50   BiDi ~ 0
-RAM_IO1
-Text GLabel 5450 4650 2    50   BiDi ~ 0
-RAM_IO2
-Text GLabel 5450 4050 2    50   BiDi ~ 0
-RAM_IO3
-Text GLabel 5450 3150 2    50   BiDi ~ 0
-RAM_IO4
-Text GLabel 5450 2950 2    50   BiDi ~ 0
-RAM_IO5
-Text GLabel 5450 2850 2    50   BiDi ~ 0
-RAM_IO6
-Text GLabel 5450 2750 2    50   BiDi ~ 0
-RAM_IO7
-Text GLabel 5450 2550 2    50   Input ~ 0
-RAM_WE
-Text GLabel 5450 2450 2    50   Input ~ 0
-RAM_A5
-Text GLabel 5450 2350 2    50   Input ~ 0
-RAM_A6
-Text GLabel 5450 2250 2    50   Input ~ 0
-RAM_A7
-Text GLabel 5450 4350 2    50   Input ~ 0
-RAM_A8
-Text GLabel 5450 4250 2    50   Input ~ 0
-RAM_A9
-Text GLabel 5450 3250 2    50   Input ~ 0
-RAM_A17
-Text GLabel 5450 3350 2    50   Input ~ 0
-RAM_A16
-Text GLabel 5450 3450 2    50   Input ~ 0
-RAM_A15
-Text GLabel 5450 3550 2    50   Input ~ 0
-RAM_OE
-Text GLabel 5450 3750 2    50   Input ~ 0
-RAM_UB
-Text GLabel 5450 3650 2    50   Input ~ 0
-RAM_LB
-Text GLabel 5450 3950 2    50   BiDi ~ 0
-RAM_IO15
-Text GLabel 5450 4150 2    50   BiDi ~ 0
-RAM_IO14
-Text GLabel 5450 5050 2    50   BiDi ~ 0
-RAM_IO13
-Text GLabel 5450 5150 2    50   BiDi ~ 0
-RAM_IO12
-Text GLabel 5450 5450 2    50   BiDi ~ 0
-RAM_IO11
-Text GLabel 5450 5550 2    50   BiDi ~ 0
-RAM_IO10
-Text GLabel 5450 5650 2    50   BiDi ~ 0
-RAM_IO9
-Text GLabel 5450 5750 2    50   BiDi ~ 0
-RAM_IO8
-Text GLabel 5450 5850 2    50   Input ~ 0
-RAM_A14
-Text GLabel 5450 5950 2    50   Input ~ 0
-RAM_A13
-Text GLabel 5450 6250 2    50   Input ~ 0
-RAM_A11
-Text GLabel 5450 6350 2    50   Input ~ 0
-RAM_A10
-Text GLabel 1450 4950 0    50   Input ~ 0
-IO_D00
 Text GLabel 1450 4350 0    50   Input ~ 0
 XC_RST
 Text GLabel 1450 3850 0    50   Input ~ 0
@@ -270,14 +194,6 @@ Text GLabel 5450 3050 2    50   Input ~ 0
 LED_7
 Text GLabel 5450 4850 2    50   Input ~ 0
 LED_8
-Text GLabel 5450 4450 2    50   Input ~ 0
-IO_XX2
-Text GLabel 5450 4550 2    50   Input ~ 0
-IO_XX3
-Text GLabel 5450 4950 2    50   Input ~ 0
-IO_XX4
-Text GLabel 5450 6050 2    50   Input ~ 0
-IO_XX5
 Wire Wire Line
 	1400 1050 1550 1050
 Wire Wire Line
@@ -287,10 +203,6 @@ Wire Wire Line
 Wire Wire Line
 	1550 1250 1550 1050
 Connection ~ 1550 1050
-Text GLabel 5450 4750 2    50   Input ~ 0
-RAM_A12
-Text GLabel 5450 6150 2    50   BiDi ~ 0
-RAM_IO0
 Text GLabel 1450 3350 0    50   Input ~ 0
 DAC_CS
 Text GLabel 1450 1850 0    50   Input ~ 0
@@ -299,8 +211,6 @@ Text GLabel 1450 2950 0    50   Input ~ 0
 DAC_VREFA
 Text GLabel 1450 3750 0    50   Input ~ 0
 DAC_VREFB
-Text GLabel 1450 4850 0    50   Input ~ 0
-IO_XX0
 Text GLabel 1450 4250 0    50   Input ~ 0
 LED_4
 Text GLabel 1450 3950 0    50   Input ~ 0
@@ -465,4 +375,88 @@ NoConn ~ 1450 2650
 NoConn ~ 1450 3050
 NoConn ~ 5450 5250
 NoConn ~ 5450 5350
+NoConn ~ 1450 4850
+NoConn ~ 1450 4950
+NoConn ~ 5450 4450
+NoConn ~ 5450 4550
+NoConn ~ 5450 4950
+NoConn ~ 5450 6050
+Text GLabel 5450 6850 2    50   Input ~ 0
+RAM_A0
+Text GLabel 5450 6750 2    50   Input ~ 0
+RAM_A1
+Text GLabel 5450 6450 2    50   Input ~ 0
+RAM_A2
+Text GLabel 5450 6650 2    50   Input ~ 0
+RAM_A3
+Text GLabel 5450 6950 2    50   Input ~ 0
+RAM_A4
+Text GLabel 5450 6550 2    50   Input ~ 0
+RAM_CE
+Text GLabel 5450 6150 2    50   BiDi ~ 0
+RAM_IO0
+Text GLabel 5450 3850 2    50   BiDi ~ 0
+RAM_IO1
+Text GLabel 5450 4650 2    50   BiDi ~ 0
+RAM_IO2
+Text GLabel 5450 3150 2    50   BiDi ~ 0
+RAM_IO4
+Text GLabel 5450 2950 2    50   BiDi ~ 0
+RAM_IO5
+Text GLabel 5450 2850 2    50   BiDi ~ 0
+RAM_IO6
+Text GLabel 5450 2750 2    50   BiDi ~ 0
+RAM_IO7
+Text GLabel 5450 2550 2    50   Input ~ 0
+RAM_WE
+Text GLabel 5450 4750 2    50   BiDi ~ 0
+RAM_IO3
+Text GLabel 5450 2350 2    50   Input ~ 0
+RAM_A17
+Text GLabel 5450 2250 2    50   Input ~ 0
+RAM_A16
+Text GLabel 5450 4350 2    50   Input ~ 0
+RAM_A15
+Text GLabel 5450 4250 2    50   Input ~ 0
+RAM_A14
+Text GLabel 5450 2450 2    50   Input ~ 0
+RAM_A18
+Text GLabel 5450 3250 2    50   Input ~ 0
+RAM_A5
+Text GLabel 5450 3350 2    50   Input ~ 0
+RAM_A6
+Text GLabel 5450 3450 2    50   Input ~ 0
+RAM_A7
+Text GLabel 5450 5850 2    50   Input ~ 0
+RAM_A9
+Text GLabel 5450 6250 2    50   Input ~ 0
+RAM_A12
+Text GLabel 5450 3550 2    50   Input ~ 0
+RAM_OE
+Text GLabel 5450 3750 2    50   Input ~ 0
+RAM_BHE
+Text GLabel 5450 5750 2    50   BiDi ~ 0
+RAM_IO9
+Text GLabel 5450 5650 2    50   BiDi ~ 0
+RAM_IO8
+Text GLabel 5450 6350 2    50   Input ~ 0
+RAM_A13
+Text GLabel 5450 5950 2    50   Input ~ 0
+RAM_A11
+Text GLabel 5450 5550 2    50   Input ~ 0
+RAM_A10
+Text GLabel 5450 5050 2    50   BiDi ~ 0
+RAM_IO10
+Text GLabel 5450 5450 2    50   BiDi ~ 0
+RAM_IO11
+Text GLabel 5450 5150 2    50   BiDi ~ 0
+RAM_IO12
+Text GLabel 5450 4050 2    50   BiDi ~ 0
+RAM_IO13
+Text GLabel 5450 4150 2    50   BiDi ~ 0
+RAM_IO14
+Text GLabel 5450 3950 2    50   BiDi ~ 0
+RAM_IO15
+Text GLabel 5450 3650 2    50   Input ~ 0
+RAM_BLE
 $EndSCHEMATC

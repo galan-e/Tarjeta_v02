@@ -562,7 +562,6 @@ NoConn ~ 5550 6800
 NoConn ~ 5550 4500
 NoConn ~ 5550 4600
 NoConn ~ 5550 3700
-NoConn ~ 1550 1900
 NoConn ~ 1550 2500
 NoConn ~ 1550 2700
 NoConn ~ 1550 5600
@@ -572,4 +571,6 @@ NoConn ~ 1550 3800
 NoConn ~ 1550 3700
 NoConn ~ 1550 5100
 NoConn ~ 1550 5200
+Text GLabel 1550 1900 0    50   Input ~ 0
+RAM_A8
 $EndSCHEMATC
