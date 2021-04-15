@@ -1,7 +1,7 @@
 <<<<<<<HEAD========update=16/10/2019_11:45:27 _a._m.=>>>>>>>3fc378b80a2d56adb47b7872b09e958f38c4c39f
 version=1
 last_client=kicad
-update=mié 07 abr 2021 19:55:38
+update=jue 15 abr 2021 17:06:47
 [general]
 version=1
 RootSch=
