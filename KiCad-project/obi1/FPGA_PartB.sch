@@ -223,42 +223,6 @@ Wire Wire Line
 	600  2550 600  2850
 Wire Wire Line
 	600  2550 1450 2550
-Wire Wire Line
-	5050 1050 4950 1050
-Connection ~ 4950 1050
-Wire Wire Line
-	4950 1050 4850 1050
-Connection ~ 4850 1050
-Wire Wire Line
-	4850 1050 4750 1050
-Connection ~ 4750 1050
-Wire Wire Line
-	4750 1050 4650 1050
-Wire Wire Line
-	4650 1050 4500 1050
-Connection ~ 4650 1050
-Wire Wire Line
-	2150 1050 2050 1050
-Connection ~ 2050 1050
-Wire Wire Line
-	2050 1050 1950 1050
-Connection ~ 1950 1050
-Wire Wire Line
-	1550 1050 1850 1050
-Wire Wire Line
-	1950 1050 1850 1050
-Connection ~ 1850 1050
-$Comp
-L FPGA_Xilinx_Spartan6:XC6SLX16-FTG256 U3
-U 2 1 5DA5D5E1
-P 3450 4150
-F 0 "U3" H 3450 950 50  0000 C CNN
-F 1 "XC6SLX16-FTG256" H 3450 850 50  0000 C CNN
-F 2 "Package_BGA:BGA-256_17.0x17.0mm_Layout16x16_P1.0mm_Ball0.5mm_Pad0.4mm_NSMD" H 3450 4150 50  0001 C CNN
-F 3 "" H 3450 4150 50  0000 C CNN
-	2    3450 4150
-	1    0    0    -1  
-$EndComp
 Text GLabel 6250 1400 0    50   Input ~ 0
 XC_R11
 $Comp
@@ -366,13 +330,9 @@ Text GLabel 1100 2250 0    50   Input ~ 0
 IO_B02
 Text GLabel 1450 3450 0    50   Input ~ 0
 IO_B03
-Text GLabel 1450 1950 0    50   Input ~ 0
-IO_B00
 Text GLabel 1450 3250 0    50   Input ~ 0
 IO_B05
 NoConn ~ 1450 2050
-NoConn ~ 1450 2650
-NoConn ~ 1450 3050
 NoConn ~ 5450 5250
 NoConn ~ 5450 5350
 NoConn ~ 1450 4850
@@ -459,4 +419,57 @@ Text GLabel 5450 3950 2    50   BiDi ~ 0
 RAM_IO15
 Text GLabel 5450 3650 2    50   Input ~ 0
 RAM_BLE
+Wire Wire Line
+	5050 1050 4950 1050
+Connection ~ 4950 1050
+Wire Wire Line
+	4950 1050 4850 1050
+Connection ~ 4850 1050
+Wire Wire Line
+	4850 1050 4750 1050
+Connection ~ 4750 1050
+Wire Wire Line
+	4750 1050 4650 1050
+Wire Wire Line
+	4650 1050 4500 1050
+Connection ~ 4650 1050
+Wire Wire Line
+	2150 1050 2050 1050
+Connection ~ 2050 1050
+Wire Wire Line
+	2050 1050 1950 1050
+Connection ~ 1950 1050
+Wire Wire Line
+	1550 1050 1850 1050
+Wire Wire Line
+	1950 1050 1850 1050
+Connection ~ 1850 1050
+$Comp
+L FPGA_Xilinx_Spartan6:XC6SLX16-FTG256 U3
+U 2 1 5DA5D5E1
+P 3450 4150
+F 0 "U3" H 3450 950 50  0000 C CNN
+F 1 "XC6SLX16-FTG256" H 3450 850 50  0000 C CNN
+F 2 "Package_BGA:BGA-256_17.0x17.0mm_Layout16x16_P1.0mm_Ball0.5mm_Pad0.4mm_NSMD" H 3450 4150 50  0001 C CNN
+F 3 "" H 3450 4150 50  0000 C CNN
+	2    3450 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 1450 3050 0    50   Input ~ 0
+IO_B00
+Wire Wire Line
+	1450 1950 600  1950
+$Comp
+L power:GND #PWR0119
+U 1 1 60837234
+P 850 2650
+F 0 "#PWR0119" H 850 2400 50  0001 C CNN
+F 1 "GND" H 855 2477 50  0000 C CNN
+F 2 "" H 850 2650 50  0001 C CNN
+F 3 "" H 850 2650 50  0001 C CNN
+	1    850  2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	850  2650 1450 2650
 $EndSCHEMATC

@@ -432,48 +432,6 @@ Wire Wire Line
 	9900 4000 9200 4000
 Connection ~ 9200 4000
 NoConn ~ 1550 3900
-Text GLabel 5550 3100 2    50   Input ~ 0
-IMU_PB00
-Text GLabel 5550 3000 2    50   Input ~ 0
-IMU_PB01
-Text GLabel 5550 2400 2    50   Input ~ 0
-IMU_PB02
-Text GLabel 5550 2800 2    50   Input ~ 0
-IMU_PB03
-Text GLabel 5550 5500 2    50   Input ~ 0
-IMU_PB16
-Text GLabel 5550 4000 2    50   Input ~ 0
-IMU_PB17
-Text GLabel 5550 4800 2    50   Input ~ 0
-IMU_PB23
-Text GLabel 5550 3400 2    50   Input ~ 0
-IMU_PA31
-Text GLabel 5550 3300 2    50   Input ~ 0
-IMU_PA30
-Text GLabel 5550 3600 2    50   Input ~ 0
-IMU_PA28
-Text GLabel 5550 3500 2    50   Input ~ 0
-IMU_PA27
-Text GLabel 5550 4700 2    50   Input ~ 0
-IMU_PA24
-Text GLabel 5550 4200 2    50   Input ~ 0
-IMU_PA23
-Text GLabel 5550 5000 2    50   Input ~ 0
-IMU_PA22
-Text GLabel 5550 4900 2    50   Input ~ 0
-IMU_PA21
-Text GLabel 5550 3900 2    50   Input ~ 0
-IMU_PA20
-Text GLabel 5550 4400 2    50   Input ~ 0
-IMU_PA19
-Text GLabel 5550 3800 2    50   Input ~ 0
-IMU_PA18
-Text GLabel 5550 2100 2    50   Input ~ 0
-IMU_PA17
-Text GLabel 5550 2200 2    50   Input ~ 0
-IMU_PA16
-Text GLabel 5550 1700 2    50   Input ~ 0
-nReset
 Wire Wire Line
 	7700 2800 7700 2550
 Wire Wire Line
@@ -481,8 +439,6 @@ Wire Wire Line
 Connection ~ 8900 2550
 Text GLabel 5550 2500 2    50   Input ~ 0
 3v3_2_XC00
-Text GLabel 5550 2600 2    50   Input ~ 0
-IMU_SCX
 Text GLabel 5550 6500 2    50   Input ~ 0
 XC_P12
 Text GLabel 5550 6600 2    50   Input ~ 0
@@ -573,4 +529,32 @@ NoConn ~ 1550 5100
 NoConn ~ 1550 5200
 Text GLabel 1550 1900 0    50   Input ~ 0
 RAM_A8
+Text GLabel 5550 3000 2    50   Input ~ 0
+IMU_SCL_SPC
+Text GLabel 5550 3100 2    50   Input ~ 0
+IMU_SDA_SDI_SDO
+Text GLabel 5550 3400 2    50   Input ~ 0
+IMU_SDO_SAO
+Text GLabel 5550 3300 2    50   Input ~ 0
+IMU_INT1
+Text GLabel 5550 2800 2    50   Input ~ 0
+IMU_INT2
+Text GLabel 5550 2400 2    50   Input ~ 0
+IMU_CS
+NoConn ~ 5550 1700
+NoConn ~ 5550 2100
+NoConn ~ 5550 2200
+NoConn ~ 5550 2600
+NoConn ~ 5550 3500
+NoConn ~ 5550 3600
+NoConn ~ 5550 3800
+NoConn ~ 5550 3900
+NoConn ~ 5550 4000
+NoConn ~ 5550 4200
+NoConn ~ 5550 4400
+NoConn ~ 5550 4700
+NoConn ~ 5550 4800
+NoConn ~ 5550 4900
+NoConn ~ 5550 5000
+NoConn ~ 5550 5500
 $EndSCHEMATC

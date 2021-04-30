@@ -1,7 +1,7 @@
 <<<<<<<HEAD========update=16/10/2019_11:45:27 _a._m.=>>>>>>>3fc378b80a2d56adb47b7872b09e958f38c4c39f
 version=1
 last_client=kicad
-update=jue 15 abr 2021 17:06:47
+update=mar 27 abr 2021 18:49:13
 [general]
 version=1
 RootSch=
@@ -13,16 +13,6 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -42,6 +32,7 @@ MinHoleToHole=0.25
 TrackWidth1=0.132121
 TrackWidth2=0.132121
 TrackWidth3=0.381
+TrackWidth4=2.032
 ViaDiameter1=0.4
 ViaDrill1=0.2
 ViaDiameter2=0.4
@@ -252,6 +243,17 @@ dPairWidth=0.1524
 dPairGap=0.1524
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
+Name=5v
+Clearance=0.1524
+TrackWidth=2.032
+ViaDiameter=0.4
+ViaDrill=0.2
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.1524
+dPairGap=0.1524
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
 Name=PWR
 Clearance=0.132121
 TrackWidth=0.381
@@ -262,3 +264,13 @@ uViaDrill=0.1
 dPairWidth=0.1524
 dPairGap=0.1524
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
